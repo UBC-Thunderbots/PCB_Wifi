@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=RESET Pin=P1-2
+Removed Pin From Net: NetName=RESET Pin=U-A1
+Change Net Name : Old Net Name=RESET New Net Name=SWITCH1
+Added Pin To Net: NetName=RESET Pin=P1-2
+Added Pin To Net: NetName=RESET Pin=U-A1
+Added Net: Name=RESET
+Added Room: Name=Ublox_breakout
