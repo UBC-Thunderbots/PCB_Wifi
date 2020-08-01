@@ -88,6 +88,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HERYXHIJ
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Ublox_breakout\Design Rule Check - Ublox_breakout_pcb.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
