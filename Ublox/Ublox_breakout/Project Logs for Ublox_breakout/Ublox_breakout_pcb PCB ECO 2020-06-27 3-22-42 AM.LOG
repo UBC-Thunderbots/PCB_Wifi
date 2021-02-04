@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=NetB1_1 Pin=P1-2
+Added Pin To Net: NetName=NetB1_1 Pin=U-A1
+Change Net Name : Old Net Name=NetB1_1 New Net Name=RESET
+Change Net Name : Old Net Name=NetB2_1 New Net Name=SWITCH0
+Change Net Name : Old Net Name=NetD2_1 New Net Name=RedLED
+Change Net Name : Old Net Name=NetD3_1 New Net Name=BlueLED
+Change Net Name : Old Net Name=NetP2_1 New Net Name=UART_TXD
+Change Net Name : Old Net Name=NetP2_2 New Net Name=UART_RXD
+Added Room: Name=Ublox_breakout

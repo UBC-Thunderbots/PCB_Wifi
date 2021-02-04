@@ -1,0 +1,2 @@
+Change Net Name : Old Net Name=Net*_C14 New Net Name=RMII_MDIO
+Change Net Name : Old Net Name=Net*_C15 New Net Name=RMII_MDC
