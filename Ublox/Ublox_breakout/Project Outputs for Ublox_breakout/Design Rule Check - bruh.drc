@@ -1,0 +1,121 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc
+Date     : 2021-02-13
+Time     : 2:16:04 PM
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=10mil) (Preferred=10mil) (All)
+   Violation between Width Constraint: Arc (222.685mil,1391.559mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1438.803mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1486.047mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1533.291mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1533.291mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1580.535mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1580.535mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1580.535mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1627.78mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1675.024mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1722.268mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1769.512mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1816.756mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1864mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1911.244mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1911.244mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,1958.488mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,2005.732mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,2052.976mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,2052.976mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,2100.22mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,2147.465mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (222.685mil,2194.709mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (327.016mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (327.016mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (327.016mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (327.016mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (374.26mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (374.26mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (374.26mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (421.504mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (421.504mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (421.504mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (468.748mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (468.748mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (468.748mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (515.992mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (515.992mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (515.992mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (563.236mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (563.236mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (563.236mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (610.48mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (610.48mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (610.48mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (657.724mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (657.724mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (657.724mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1391.559mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1391.559mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1391.559mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1438.803mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1486.047mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1486.047mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1533.291mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1580.535mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1627.78mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1675.024mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1722.268mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1769.512mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1769.512mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1816.756mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1816.756mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1864mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1911.244mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,1958.488mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,2005.732mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,2052.976mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,2100.22mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,2147.465mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+   Violation between Width Constraint: Arc (762.055mil,2194.709mil) on Top Layer Actual Width = 0mil, Target Width = 5mil
+Rule Violations :71
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=150mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=4mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Arc (222.685mil,1580.535mil) on Top Layer 
+   Violation between Net Antennae: Arc (222.685mil,1580.535mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 73
+Waived Violations : 0
+Time Elapsed        : 00:00:01
