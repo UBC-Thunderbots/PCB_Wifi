@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=3v3 Pin=CN-3
+Removed Pin From Net: NetName=RJ_45_GND Pin=CN-4
+Removed Pin From Net: NetName=RJ_45_GND Pin=CN-5
+Removed Pin From Net: NetName=3v3 Pin=CN-6
+Removed Pin From Net: NetName=PHY_RXP Pin=CN-7
+Removed Pin From Net: NetName=PHY_RXN Pin=CN-8
+Change Component Footprint: Designator=CN Old Footprint=*RJ45_PULSEJACK New Footprint=RJ45 J00-0045NL
+Change Component Comment : Designator=CN Old Comment=RJ45 New Comment=CN J00-0045NL
+Change component parameters: Designator = "CN" ("CN"); Footprint = "*RJ45_PULSEJACK"; UniqueID = "\EPHFXVUT" ("\EPHFXVUT")
+Change component parameters (AddParameter): Name = "Digikey"; Value = "553-1619-5-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.com/product-detail/en/pulse-electronics-network/J00-0045NL/553-1619-5-ND/1036860?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Pulse Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "J00-0045NL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/J00-0045NL/Pulse%20Electronics%20Network/view-part/87956/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "673-J00-0045NL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PHY_RXP Pin=CN-3
+Added Pin To Net: NetName=3v3 Pin=CN-4
+Added Pin To Net: NetName=3v3 Pin=CN-5
+Added Pin To Net: NetName=PHY_RXN Pin=CN-6
+Added Pin To Net: NetName=RJ_45_GND Pin=CN-8
+Added Pin To Net: NetName=3v3 Pin=CN-9
+Added Member To Class: ClassName=Ublox_breakout Member=Component C2 22uF 10V
+Added Member To Class: ClassName=Ublox_breakout Member=Component C41 100nF 50V
+Added Member To Class: ClassName=Ublox_breakout Member=Component CN CN J00-0045NL
+Added Member To Class: ClassName=Ublox_breakout Member=Component R LP2992IM5-1.8
