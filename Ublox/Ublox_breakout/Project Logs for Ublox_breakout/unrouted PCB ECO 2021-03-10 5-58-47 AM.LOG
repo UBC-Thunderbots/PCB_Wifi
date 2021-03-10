@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=X1 Pin=XTAL-1
+Removed Pin From Net: NetName=X0 Pin=XTAL-2
+Removed Member From Class: ClassName=Ublox_breakout Member=XTAL

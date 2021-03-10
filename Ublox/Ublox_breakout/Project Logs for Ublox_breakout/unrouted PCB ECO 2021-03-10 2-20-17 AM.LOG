@@ -1,0 +1,15 @@
+Change Net Name : Old Net Name=Net*_D7 New Net Name=NetLabel46
+Change Net Name : Old Net Name=NetC5_1 New Net Name=BYPASS
+Change Net Name : Old Net Name=NetC33_2 New Net Name=VDDIO
+Change Net Name : Old Net Name=NetD8_2 New Net Name=JUMPERS
+Change Net Name : Old Net Name=NetK_9 New Net Name=REXT
+Change Net Name : Old Net Name=NetK_12 New Net Name=RXD1
+Change Net Name : Old Net Name=NetK_13 New Net Name=RXD0
+Change Net Name : Old Net Name=NetK_15 New Net Name=CRS_DV
+Change Net Name : Old Net Name=NetK_17 New Net Name=RXER
+Change Net Name : Old Net Name=NetK_18 New Net Name=INTRP
+Change Net Name : Old Net Name=NetK_19 New Net Name=TXEN
+Change Net Name : Old Net Name=NetK_20 New Net Name=TXD0
+Change Net Name : Old Net Name=NetK_21 New Net Name=TXD1
+Added Member To Class: ClassName=Ublox_breakout Member=Component CN CN J00-0045NL
+Added Member To Class: ClassName=Ublox_breakout Member=Component K KSZ8081RNAIA-TR
