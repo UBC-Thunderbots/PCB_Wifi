@@ -38,7 +38,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=unrouted.PcbDoc
+DocumentPath=unrouted2.0.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -55,6 +55,23 @@ GenerateClassCluster=0
 DocumentUniqueId=CYHLUNMO
 
 [Document2]
+DocumentPath=unrouted.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CYHLUNMO
+
+[Document3]
 DocumentPath=Ublox_breakout.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VHJPIFKY
 
-[Document3]
+[Document4]
 DocumentPath=wifi_review.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DGBGEJDF
 
-[Document4]
+[Document5]
 DocumentPath=..\..\Integrated_Libraries\AltiumLibraries.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJDQYTTM
 
-[Document5]
+[Document6]
 DocumentPath=..\..\Integrated_Libraries\AltiumLibraries.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLPJFXRK
 
-[Document6]
+[Document7]
 DocumentPath=fun_bruh.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -137,7 +154,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DVXLXVQJ
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Ublox_breakout\Design Rule Check - bruh.html
