@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=RMII_MDIO Pin=C-2
+Added Pin To Net: NetName=ETH_MDIO Pin=C-2
