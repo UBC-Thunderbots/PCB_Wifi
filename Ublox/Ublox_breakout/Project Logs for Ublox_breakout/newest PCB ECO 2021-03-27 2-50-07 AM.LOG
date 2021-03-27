@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=ETH_TXD0 Pin=P-1
+Removed Pin From Net: NetName=ETH_TXD1 Pin=P-2
+Removed Pin From Net: NetName=ETH_TXEN Pin=P-3
+Removed Pin From Net: NetName=ETH_CRSDV Pin=P-4
+Removed Pin From Net: NetName=ETH_RXD0 Pin=P-5
+Removed Pin From Net: NetName=ETH_RXD1 Pin=P-6
+Added Pin To Net: NetName=TXD0 Pin=K-19
+Added Pin To Net: NetName=REXT Pin=K-21
+Added Pin To Net: NetName=TXD0 Pin=P-1
+Added Pin To Net: NetName=REXT Pin=P-2
+Added Pin To Net: NetName=TXD0 Pin=P-3
+Added Pin To Net: NetName=CRS_DV Pin=P-4
+Added Pin To Net: NetName=RXD0 Pin=P-5
+Added Pin To Net: NetName=RXD1 Pin=P-6
+Added Pin To Net: NetName=TXD0 Pin=R48-2
+Added Pin To Net: NetName=REXT Pin=R51-2

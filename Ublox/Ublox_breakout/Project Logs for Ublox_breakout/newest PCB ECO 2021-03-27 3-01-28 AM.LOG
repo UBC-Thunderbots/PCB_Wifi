@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=REXT Pin=K-9
+Removed Pin From Net: NetName=ETH_TXEN Pin=K-19
+Removed Pin From Net: NetName=TXD0 Pin=P-3
+Removed Pin From Net: NetName=TXD0 Pin=R48-2
+Removed Pin From Net: NetName=REXT Pin=R60-2
+Change Net Name : Old Net Name=REXT New Net Name=TXD1
+Added Pin To Net: NetName=REXT Pin=K-9
+Added Pin To Net: NetName=REXT Pin=R60-2
+Added Net: Name=REXT
+Added Pin To Net: NetName=TXEN Pin=K-19
+Added Pin To Net: NetName=TXEN Pin=P-3
+Added Pin To Net: NetName=TXEN Pin=R48-2
+Added Net: Name=TXEN
