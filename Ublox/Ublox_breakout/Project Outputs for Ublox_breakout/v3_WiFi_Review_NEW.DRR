@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: v3_WiFi_Review_NEW.PcbDoc   2021-04-01  8:10:06 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : v3_WiFi_Review_NEW.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      15mil (0.381mm)                                           Round             42        PTH        0.00inch (0.00mm)
+T2      30mil (0.762mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T3      35mil (0.89mm)                                            Round             8         PTH        0.00inch (0.00mm)
+T4      35mil (0.9mm)                                             Round             9         PTH        0.00inch (0.00mm)
+T5      40mil (1.02mm)                                            Round             4         PTH        0.00inch (0.00mm)
+T6      63mil (1.6mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T7      126mil (3.2mm)                                            Round             2         NPTH       0.00inch (0.00mm)
+T8      142mil (3.607mm)                                          Round             3         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              76
+
+Total Processing Time (hh:mm:ss) : 00:00:00
