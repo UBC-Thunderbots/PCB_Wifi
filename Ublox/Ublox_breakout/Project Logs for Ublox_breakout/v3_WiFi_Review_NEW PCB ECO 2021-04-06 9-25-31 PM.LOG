@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=GND Pin= C43-1
+Removed Pin From Net: NetName=VDDA_3.3 Pin= C43-2
+Removed Pin From Net: NetName=RMII_MDC Pin=C-1
+Removed Pin From Net: NetName=RMII_MDIO Pin=C-2
+Removed Pin From Net: NetName=KSZ_RST_OUT Pin=D8-1
+Removed Pin From Net: NetName=JUMPERS Pin=D8-2
+Removed Pin From Net: NetName=KSZ_RST_OUT Pin=D9-1
+Removed Pin From Net: NetName=1v8 Pin=D9-2
+Removed Pin From Net: NetName=1v8 Pin=H-1
+Removed Pin From Net: NetName=3v3 Pin=H-2
+Removed Pin From Net: NetName=GND Pin=H-3
+Removed Pin From Net: NetName=UART_TXD Pin=H-4
+Removed Pin From Net: NetName=UART_RXD Pin=H-5
+Removed Pin From Net: NetName=MAIN_RESET Pin=H-6
+Change Component Footprint: Designator=D8 Old Footprint=SMC New Footprint=SOD-123
+Change Component Footprint: Designator=D9 Old Footprint=SMC New Footprint=SOD-123
+Change Component Comment : Designator=D8 Old Comment=Diode New Comment=SM5817PL-TP
+Change Component Comment : Designator=D9 Old Comment=Diode New Comment=SM5817PL-TP
+Change component parameters: Designator = "D8" ("D8"); Footprint = "SMC"; UniqueID = "\IJEPWHFR" ("\IJEPWHFR")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.ca/product-detail/en/on-semiconductor/MBR0540T1G/MBR0540T1GOSCT-ND/917967"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey"; Value = "SM5817PL-TPMSCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.ca/product-detail/en/micro-commercial-co/SM5817PL-TP/SM5817PL-TPMSCT-ND/1793410"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Micro Commercial Co"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "20V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D9" ("D9"); Footprint = "SMC"; UniqueID = "\RLCJDMXS" ("\RLCJDMXS")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.digikey.ca/product-detail/en/on-semiconductor/MBR0540T1G/MBR0540T1GOSCT-ND/917967"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey"; Value = "SM5817PL-TPMSCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Link"; Value = "https://www.digikey.ca/product-detail/en/micro-commercial-co/SM5817PL-TP/SM5817PL-TPMSCT-ND/1793410"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Micro Commercial Co"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "SM5817PL-TP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOD-123"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "20V"; VariantName = "[No Variations]"
+Added Component: Designator=C43(0805)
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rating"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.2uF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C43-1
+Added Pin To Net: NetName=VDDA_3.3 Pin=C43-2
+Added Pin To Net: NetName=ETH_MDIO Pin=C-1
+Added Pin To Net: NetName=ETH_MDC Pin=C-2
+Added Pin To Net: NetName=KSZ_RST_OUT Pin=D8-A
+Added Pin To Net: NetName=JUMPERS Pin=D8-C
+Added Pin To Net: NetName=KSZ_RST_OUT Pin=D9-A
+Added Pin To Net: NetName=1v8 Pin=D9-C
+Added Pin To Net: NetName=3v3 Pin=H-1
+Added Pin To Net: NetName=UART_RXD Pin=H-2
+Added Pin To Net: NetName=UART_TXD Pin=H-3
+Added Pin To Net: NetName=MAIN_RESET Pin=H-4
+Added Pin To Net: NetName=GND Pin=H-5
+Added Pin To Net: NetName=1v8 Pin=H-6
+Change Class Name : Old Net Name=Ublox_breakout New Net Name=Ublox_breakout - Copy
+Added Member To Class: ClassName=Ublox_breakout - Copy Member=Component C43 2.2uF 16V
+Added Member To Class: ClassName=Ublox_breakout - Copy Member=Component FL BLM18PG300SN1D

@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=1v8 Pin=C33-2
+Added Pin To Net: NetName=1v8 Pin=C42-2
+Added Pin To Net: NetName=1v8 Pin=K-14
+Change Net Name : Old Net Name=1v8 New Net Name=VDDIO

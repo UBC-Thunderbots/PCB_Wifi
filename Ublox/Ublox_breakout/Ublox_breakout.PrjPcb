@@ -24,6 +24,7 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
+AutoCrossReferences=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -57,23 +58,6 @@ GenerateClassCluster=0
 DocumentUniqueId=AQPHGBXJ
 
 [Document2]
-DocumentPath=Ublox_breakout.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VHJPIFKY
-
-[Document3]
 DocumentPath=wifi_board_v1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -90,7 +74,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DGBGEJDF
 
-[Document4]
+[Document3]
 DocumentPath=..\..\Integrated_Libraries\AltiumLibraries.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,7 +91,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJDQYTTM
 
-[Document5]
+[Document4]
 DocumentPath=..\..\Integrated_Libraries\AltiumLibraries.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -124,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLPJFXRK
 
-[Document6]
+[Document5]
 DocumentPath=v3_WiFi_Review_NEW.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -140,6 +124,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RGGDDQGH
+
+[Document6]
+DocumentPath=Ublox_breakout - Copy.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZYZHUCKO
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Ublox_breakout\Design Rule Check - bruh.html
