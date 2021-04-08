@@ -126,7 +126,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RGGDDQGH
 
 [Document6]
-DocumentPath=Ublox_breakout - Copy.SchDoc
+DocumentPath=Ublox_breakout_schem.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ZYZHUCKO
+DocumentUniqueId=VHJPIFKY
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Ublox_breakout\Design Rule Check - bruh.html
