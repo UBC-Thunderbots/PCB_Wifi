@@ -1,0 +1,36 @@
+Added Component: Designator=S1(SON35P140X100X40-8N)
+Add component (AddParameter): Name = "Availability"; Value = "Warning"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=39064"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PCA9306DQER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "X2SON-8 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PCA9306DQER/Texas%20Instruments/view-part/39064/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Texas_Instruments-Purchase-URL"; Value = "https://snapeda.com/shop?store=Texas+Instruments&id=39064"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=S2(SON35P140X100X40-8N)
+Add component (AddParameter): Name = "Availability"; Value = "Warning"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=39064"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PCA9306DQER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "X2SON-8 Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PCA9306DQER/Texas%20Instruments/view-part/39064/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Texas_Instruments-Purchase-URL"; Value = "https://snapeda.com/shop?store=Texas+Instruments&id=39064"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=S1-1
+Added Pin To Net: NetName=1v8 Pin=S1-2
+Added Pin To Net: NetName=MAIN_RESET_1v8 Pin=S1-4
+Added Pin To Net: NetName=MAIN_RESET_3v3 Pin=S1-5
+Added Pin To Net: NetName=3v3 Pin=S1-7
+Added Pin To Net: NetName=S1_EN_RES Pin=S1-8
+Added Pin To Net: NetName=GND Pin=S2-1
+Added Pin To Net: NetName=1v8 Pin=S2-2
+Added Pin To Net: NetName=UART_TXD_1v8 Pin=S2-3
+Added Pin To Net: NetName=UART_RXD_1v8 Pin=S2-4
+Added Pin To Net: NetName=UART_RXD_3v3 Pin=S2-5
+Added Pin To Net: NetName=UART_TXD_3v3 Pin=S2-6
+Added Pin To Net: NetName=3v3 Pin=S2-7
+Added Pin To Net: NetName=S2_EN_RES Pin=S2-8
+Added Member To Class: ClassName=Ublox_breakout_schem Member=Component S1 PCA9306DQER
+Added Member To Class: ClassName=Ublox_breakout_schem Member=Component S2 PCA9306DQER

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=3v3 Pin=H-6
+Removed Pin From Net: NetName=MAIN_RESET_1v8 Pin=S1-4
+Removed Pin From Net: NetName=MAIN_RESET_3v3 Pin=S1-5
+Added Pin To Net: NetName=MAIN_RESET_1v8 Pin=S1-3
+Added Pin To Net: NetName=MAIN_RESET_3v3 Pin=S1-6
