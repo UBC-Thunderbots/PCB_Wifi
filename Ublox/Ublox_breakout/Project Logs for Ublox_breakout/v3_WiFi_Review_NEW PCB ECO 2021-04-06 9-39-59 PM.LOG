@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=VDDIO Pin=C33-2
+Removed Pin From Net: NetName=VDDIO Pin=C42-2
+Removed Pin From Net: NetName=VDDIO Pin=K-14
+Change Net Name : Old Net Name=VDDIO New Net Name=1v8
+Added Pin To Net: NetName=VDDIO Pin=C33-2
+Added Pin To Net: NetName=VDDIO Pin=C42-2
+Added Pin To Net: NetName=VDDIO Pin=K-14
+Added Net: Name=VDDIO

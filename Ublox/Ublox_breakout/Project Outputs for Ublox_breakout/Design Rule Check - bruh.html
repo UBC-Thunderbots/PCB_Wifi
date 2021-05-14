@@ -1,0 +1,551 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD20\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2021-02-13</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">2:16:04 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc" class="file"><acronym title="C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc">C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">73</td></tr>
+</table>
+</td>
+</table><a name="IDPVB1LJI4NBONJNNZQMRTFRNVGKXYX34RYEIIDGVPZKNAV3YTUTM"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTRIWGUFS2T3ZMZCGV1VNMRVOOGXGHI5ZF04IXSEK4R4MAVJEABHN">Clearance Constraint (Gap=5mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAG3VFGAT1J0HLXALVMQN5GWV1ELALK55ZSNWAND0J1XZGIGL4VSL">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0JUKB4ZS21OMPWQ1EUMIZTC5VIQJOWUXV5DVLYLV0U01LCQUUZXM">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHU4WLU2CJOXSLGTTOXU44Q5KDDRG2GFR14SHYSGNPWBBTZ1NTY0D">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZMKBMTJJJVNFEV5XVD0SSAEBYC5RLYJDGF4FC3D2BVPRARWESLXC">Width Constraint (Min=5mil) (Max=10mil) (Preferred=10mil) (All)</a></td>
+<td class="column2">71</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID01ZIDUXIFSNCF30Q5VSUNSUCD1XKUBWT5UQQ5PURG2K1OBXE1VJ">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYXUK0ECKLTEQGGYBRCJSCLNKJK5OW4WECWPO0HCUPSVQKRLQWYXP">Hole Size Constraint (Min=1mil) (Max=150mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDS2X54UIEUHXTP4SWYPRTOHD34ZMUYDCOS52NTEEILE2LPYCM3HJ">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5OM3W0GJAYBJGQGRGCH5UPK3IN3UWZGUDM01YKBOMSQMWKWHY0GF">Minimum Solder Mask Sliver (Gap=1mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID02RGPGIOGC0NH5OQVLNVAKUJ2NCHE0MLEFLZG4CWTDWISQKGL5PF">Silk To Solder Mask (Clearance=4mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEGIKECOSFGI2FZX2A2V5K2V11H0NNBVWOR4324GS5ACNIKIKKMYL">Silk to Silk (Clearance=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWELCHTWSHTSUFCTLYBWVAVAUWD1CH1BR5VFXHFODU2BBERA1VJCN">Net Antennae (Tolerance=0mil) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWLQGYC4KBRUFDL5GV5V01K4GFFOIC5LDXLWNSB3A0FAP22QQDIB">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">73</td>
+</tr>
+</table><br><a name="IDZMKBMTJJJVNFEV5XVD0SSAEBYC5RLYJDGF4FC3D2BVPRARWESLXC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Width Constraint (Min=5mil) (Max=10mil) (Preferred=10mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3120.059mil|Location2.Y=3125.984mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3120.059mil|Location2.Y=3125.984mil|Absolute=True">Width Constraint: Arc (222.685mil,1391.559mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3167.303mil|Location2.Y=3173.228mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3167.303mil|Location2.Y=3173.228mil|Absolute=True">Width Constraint: Arc (222.685mil,1438.803mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3214.547mil|Location2.Y=3220.472mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3214.547mil|Location2.Y=3220.472mil|Absolute=True">Width Constraint: Arc (222.685mil,1486.047mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3963.785mil|Location2.X=3972.141mil|Location1.Y=3244.267mil|Location2.Y=3247.292mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3963.785mil|Location2.X=3972.141mil|Location1.Y=3244.267mil|Location2.Y=3247.292mil|Absolute=True">Width Constraint: Arc (222.685mil,1533.291mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3958.586mil|Location2.X=3966.942mil|Location1.Y=3279.316mil|Location2.Y=3282.342mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3958.586mil|Location2.X=3966.942mil|Location1.Y=3279.316mil|Location2.Y=3282.342mil|Absolute=True">Width Constraint: Arc (222.685mil,1533.291mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3960.917mil|Location2.X=3969.316mil|Location1.Y=3326.75mil|Location2.Y=3329.75mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3960.917mil|Location2.X=3969.316mil|Location1.Y=3326.75mil|Location2.Y=3329.75mil|Absolute=True">Width Constraint: Arc (222.685mil,1580.535mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3977.101mil|Location2.X=3984.001mil|Location1.Y=3303.509mil|Location2.Y=3309.276mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3977.101mil|Location2.X=3984.001mil|Location1.Y=3303.509mil|Location2.Y=3309.276mil|Absolute=True">Width Constraint: Arc (222.685mil,1580.535mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3955.913mil|Location2.X=3964.17mil|Location1.Y=3291.663mil|Location2.Y=3295.122mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3955.913mil|Location2.X=3964.17mil|Location1.Y=3291.663mil|Location2.Y=3295.122mil|Absolute=True">Width Constraint: Arc (222.685mil,1580.535mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3356.28mil|Location2.Y=3362.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3356.28mil|Location2.Y=3362.205mil|Absolute=True">Width Constraint: Arc (222.685mil,1627.78mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3403.524mil|Location2.Y=3409.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3403.524mil|Location2.Y=3409.449mil|Absolute=True">Width Constraint: Arc (222.685mil,1675.024mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3450.768mil|Location2.Y=3456.693mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3450.768mil|Location2.Y=3456.693mil|Absolute=True">Width Constraint: Arc (222.685mil,1722.268mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3498.012mil|Location2.Y=3503.937mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3498.012mil|Location2.Y=3503.937mil|Absolute=True">Width Constraint: Arc (222.685mil,1769.512mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3545.256mil|Location2.Y=3551.181mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3545.256mil|Location2.Y=3551.181mil|Absolute=True">Width Constraint: Arc (222.685mil,1816.756mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3592.5mil|Location2.Y=3598.425mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3592.5mil|Location2.Y=3598.425mil|Absolute=True">Width Constraint: Arc (222.685mil,1864mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3960.563mil|Location2.X=3968.959mil|Location1.Y=3657.45mil|Location2.Y=3660.45mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3960.563mil|Location2.X=3968.959mil|Location1.Y=3657.45mil|Location2.Y=3660.45mil|Absolute=True">Width Constraint: Arc (222.685mil,1911.244mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.807mil|Location2.X=3970.204mil|Location1.Y=3622.039mil|Location2.Y=3625.039mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3961.807mil|Location2.X=3970.204mil|Location1.Y=3622.039mil|Location2.Y=3625.039mil|Absolute=True">Width Constraint: Arc (222.685mil,1911.244mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3686.988mil|Location2.Y=3692.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3686.988mil|Location2.Y=3692.913mil|Absolute=True">Width Constraint: Arc (222.685mil,1958.488mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3734.232mil|Location2.Y=3740.157mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3734.232mil|Location2.Y=3740.157mil|Absolute=True">Width Constraint: Arc (222.685mil,2005.732mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3962.559mil|Location2.X=3970.945mil|Location1.Y=3763.813mil|Location2.Y=3766.813mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3962.559mil|Location2.X=3970.945mil|Location1.Y=3763.813mil|Location2.Y=3766.813mil|Absolute=True">Width Constraint: Arc (222.685mil,2052.976mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3959.811mil|Location2.X=3968.197mil|Location1.Y=3799.14mil|Location2.Y=3802.14mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3959.811mil|Location2.X=3968.197mil|Location1.Y=3799.14mil|Location2.Y=3802.14mil|Absolute=True">Width Constraint: Arc (222.685mil,2052.976mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3828.72mil|Location2.Y=3834.646mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3828.72mil|Location2.Y=3834.646mil|Absolute=True">Width Constraint: Arc (222.685mil,2100.22mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3875.965mil|Location2.Y=3881.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3875.965mil|Location2.Y=3881.89mil|Absolute=True">Width Constraint: Arc (222.685mil,2147.465mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3923.209mil|Location2.Y=3929.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3941.474mil|Location2.X=3948.374mil|Location1.Y=3923.209mil|Location2.Y=3929.134mil|Absolute=True">Width Constraint: Arc (222.685mil,2194.709mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4054.242mil|Location2.X=4061.825mil|Location1.Y=3117.977mil|Location2.Y=3122.682mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4054.242mil|Location2.X=4061.825mil|Location1.Y=3117.977mil|Location2.Y=3122.682mil|Absolute=True">Width Constraint: Arc (327.016mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4077.309mil|Location2.X=4084.804mil|Location1.Y=3091.09mil|Location2.Y=3095.895mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4077.309mil|Location2.X=4084.804mil|Location1.Y=3091.09mil|Location2.Y=3095.895mil|Absolute=True">Width Constraint: Arc (327.016mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4062.822mil|Location2.X=4071.189mil|Location1.Y=3086.801mil|Location2.Y=3089.801mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4062.822mil|Location2.X=4071.189mil|Location1.Y=3086.801mil|Location2.Y=3089.801mil|Absolute=True">Width Constraint: Arc (327.016mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4045.805mil|Location2.X=4052.704mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4045.805mil|Location2.X=4052.704mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True">Width Constraint: Arc (327.016mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4125.287mil|Location2.X=4132.645mil|Location1.Y=3091.784mil|Location2.Y=3096.73mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4125.287mil|Location2.X=4132.645mil|Location1.Y=3091.784mil|Location2.Y=3096.73mil|Absolute=True">Width Constraint: Arc (374.26mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4100.232mil|Location2.X=4107.59mil|Location1.Y=3116.839mil|Location2.Y=3121.785mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4100.232mil|Location2.X=4107.59mil|Location1.Y=3116.839mil|Location2.Y=3121.785mil|Absolute=True">Width Constraint: Arc (374.26mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4093.048mil|Location2.X=4099.949mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4093.048mil|Location2.X=4099.949mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True">Width Constraint: Arc (374.26mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4172.532mil|Location2.X=4179.889mil|Location1.Y=3091.784mil|Location2.Y=3096.73mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4172.532mil|Location2.X=4179.889mil|Location1.Y=3091.784mil|Location2.Y=3096.73mil|Absolute=True">Width Constraint: Arc (421.504mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4147.476mil|Location2.X=4154.834mil|Location1.Y=3116.839mil|Location2.Y=3121.785mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4147.476mil|Location2.X=4154.834mil|Location1.Y=3116.839mil|Location2.Y=3121.785mil|Absolute=True">Width Constraint: Arc (421.504mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4140.293mil|Location2.X=4147.193mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4140.293mil|Location2.X=4147.193mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True">Width Constraint: Arc (421.504mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4219.776mil|Location2.X=4227.133mil|Location1.Y=3091.784mil|Location2.Y=3096.73mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4219.776mil|Location2.X=4227.133mil|Location1.Y=3091.784mil|Location2.Y=3096.73mil|Absolute=True">Width Constraint: Arc (468.748mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4194.721mil|Location2.X=4202.078mil|Location1.Y=3116.839mil|Location2.Y=3121.785mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4194.721mil|Location2.X=4202.078mil|Location1.Y=3116.839mil|Location2.Y=3121.785mil|Absolute=True">Width Constraint: Arc (468.748mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4187.537mil|Location2.X=4194.437mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4187.537mil|Location2.X=4194.437mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True">Width Constraint: Arc (468.748mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4241.965mil|Location2.X=4249.322mil|Location1.Y=3116.839mil|Location2.Y=3121.785mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4241.965mil|Location2.X=4249.322mil|Location1.Y=3116.839mil|Location2.Y=3121.785mil|Absolute=True">Width Constraint: Arc (515.992mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4267.02mil|Location2.X=4274.377mil|Location1.Y=3091.784mil|Location2.Y=3096.73mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4267.02mil|Location2.X=4274.377mil|Location1.Y=3091.784mil|Location2.Y=3096.73mil|Absolute=True">Width Constraint: Arc (515.992mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4234.781mil|Location2.X=4241.681mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4234.781mil|Location2.X=4241.681mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True">Width Constraint: Arc (515.992mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4287.506mil|Location2.X=4294.475mil|Location1.Y=3114.865mil|Location2.Y=3120.138mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4287.506mil|Location2.X=4294.475mil|Location1.Y=3114.865mil|Location2.Y=3120.138mil|Absolute=True">Width Constraint: Arc (563.236mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4315.966mil|Location2.X=4322.935mil|Location1.Y=3093.757mil|Location2.Y=3099.03mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4315.966mil|Location2.X=4322.935mil|Location1.Y=3093.757mil|Location2.Y=3099.03mil|Absolute=True">Width Constraint: Arc (563.236mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4282.025mil|Location2.X=4288.925mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4282.025mil|Location2.X=4288.925mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True">Width Constraint: Arc (563.236mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4362.647mil|Location2.X=4369.757mil|Location1.Y=3093.037mil|Location2.Y=3098.202mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4362.647mil|Location2.X=4369.757mil|Location1.Y=3093.037mil|Location2.Y=3098.202mil|Absolute=True">Width Constraint: Arc (610.48mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4335.314mil|Location2.X=4342.425mil|Location1.Y=3115.585mil|Location2.Y=3120.75mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4335.314mil|Location2.X=4342.425mil|Location1.Y=3115.585mil|Location2.Y=3120.75mil|Absolute=True">Width Constraint: Arc (610.48mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4329.269mil|Location2.X=4336.169mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4329.269mil|Location2.X=4336.169mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True">Width Constraint: Arc (610.48mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.454mil|Location2.X=4417.423mil|Location1.Y=3093.757mil|Location2.Y=3099.03mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4410.454mil|Location2.X=4417.423mil|Location1.Y=3093.757mil|Location2.Y=3099.03mil|Absolute=True">Width Constraint: Arc (657.724mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4381.994mil|Location2.X=4388.963mil|Location1.Y=3114.865mil|Location2.Y=3120.138mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4381.994mil|Location2.X=4388.963mil|Location1.Y=3114.865mil|Location2.Y=3120.138mil|Absolute=True">Width Constraint: Arc (657.724mil,1375.811mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4376.513mil|Location2.X=4383.413mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4376.513mil|Location2.X=4383.413mil|Location1.Y=3938.957mil|Location2.Y=3944.882mil|Absolute=True">Width Constraint: Arc (657.724mil,2210.457mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4516.675mil|Location2.X=4523.575mil|Location1.Y=3121.507mil|Location2.Y=3127.32mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4516.675mil|Location2.X=4523.575mil|Location1.Y=3121.507mil|Location2.Y=3127.32mil|Absolute=True">Width Constraint: Arc (762.055mil,1391.559mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4516.615mil|Location2.X=4523.515mil|Location1.Y=3118.846mil|Location2.Y=3124.751mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4516.615mil|Location2.X=4523.515mil|Location1.Y=3118.846mil|Location2.Y=3124.751mil|Absolute=True">Width Constraint: Arc (762.055mil,1391.559mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4481.631mil|Location2.X=4488.531mil|Location1.Y=3114.579mil|Location2.Y=3120.46mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4481.631mil|Location2.X=4488.531mil|Location1.Y=3114.579mil|Location2.Y=3120.46mil|Absolute=True">Width Constraint: Arc (762.055mil,1391.559mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3167.303mil|Location2.Y=3173.228mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3167.303mil|Location2.Y=3173.228mil|Absolute=True">Width Constraint: Arc (762.055mil,1438.803mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4495.028mil|Location2.X=4503.242mil|Location1.Y=3231.38mil|Location2.Y=3234.974mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4495.028mil|Location2.X=4503.242mil|Location1.Y=3231.38mil|Location2.Y=3234.974mil|Absolute=True">Width Constraint: Arc (762.055mil,1486.047mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4506.082mil|Location2.X=4514.296mil|Location1.Y=3197.715mil|Location2.Y=3201.309mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4506.082mil|Location2.X=4514.296mil|Location1.Y=3197.715mil|Location2.Y=3201.309mil|Absolute=True">Width Constraint: Arc (762.055mil,1486.047mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3261.791mil|Location2.Y=3267.716mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3261.791mil|Location2.Y=3267.716mil|Absolute=True">Width Constraint: Arc (762.055mil,1533.291mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3309.035mil|Location2.Y=3314.961mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3309.035mil|Location2.Y=3314.961mil|Absolute=True">Width Constraint: Arc (762.055mil,1580.535mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3356.28mil|Location2.Y=3362.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3356.28mil|Location2.Y=3362.205mil|Absolute=True">Width Constraint: Arc (762.055mil,1627.78mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3403.524mil|Location2.Y=3409.449mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3403.524mil|Location2.Y=3409.449mil|Absolute=True">Width Constraint: Arc (762.055mil,1675.024mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3450.768mil|Location2.Y=3456.693mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3450.768mil|Location2.Y=3456.693mil|Absolute=True">Width Constraint: Arc (762.055mil,1722.268mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4481.344mil|Location2.X=4488.244mil|Location1.Y=3493.415mil|Location2.Y=3499.32mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4481.344mil|Location2.X=4488.244mil|Location1.Y=3493.415mil|Location2.Y=3499.32mil|Absolute=True">Width Constraint: Arc (762.055mil,1769.512mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4516.615mil|Location2.X=4523.515mil|Location1.Y=3496.799mil|Location2.Y=3502.704mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4516.615mil|Location2.X=4523.515mil|Location1.Y=3496.799mil|Location2.Y=3502.704mil|Absolute=True">Width Constraint: Arc (762.055mil,1769.512mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.555mil|Location2.X=4508.955mil|Location1.Y=3527.539mil|Location2.Y=3530.539mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.555mil|Location2.X=4508.955mil|Location1.Y=3527.539mil|Location2.Y=3530.539mil|Absolute=True">Width Constraint: Arc (762.055mil,1816.756mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.555mil|Location2.X=4508.955mil|Location1.Y=3562.972mil|Location2.Y=3565.972mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4500.555mil|Location2.X=4508.955mil|Location1.Y=3562.972mil|Location2.Y=3565.972mil|Absolute=True">Width Constraint: Arc (762.055mil,1816.756mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3592.5mil|Location2.Y=3598.425mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3592.5mil|Location2.Y=3598.425mil|Absolute=True">Width Constraint: Arc (762.055mil,1864mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3639.744mil|Location2.Y=3645.669mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3639.744mil|Location2.Y=3645.669mil|Absolute=True">Width Constraint: Arc (762.055mil,1911.244mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3686.988mil|Location2.Y=3692.913mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3686.988mil|Location2.Y=3692.913mil|Absolute=True">Width Constraint: Arc (762.055mil,1958.488mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3734.232mil|Location2.Y=3740.157mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3734.232mil|Location2.Y=3740.157mil|Absolute=True">Width Constraint: Arc (762.055mil,2005.732mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3781.476mil|Location2.Y=3787.401mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3781.476mil|Location2.Y=3787.401mil|Absolute=True">Width Constraint: Arc (762.055mil,2052.976mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3828.72mil|Location2.Y=3834.646mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3828.72mil|Location2.Y=3834.646mil|Absolute=True">Width Constraint: Arc (762.055mil,2100.22mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3875.965mil|Location2.Y=3881.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3875.965mil|Location2.Y=3881.89mil|Absolute=True">Width Constraint: Arc (762.055mil,2147.465mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3923.209mil|Location2.Y=3929.134mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4480.844mil|Location2.X=4487.744mil|Location1.Y=3923.209mil|Location2.Y=3929.134mil|Absolute=True">Width Constraint: Arc (762.055mil,2194.709mil) on Top Layer Actual Width = 0mil, Target Width = 5mil</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWELCHTWSHTSUFCTLYBWVAVAUWD1CH1BR5VFXHFODU2BBERA1VJCN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mil) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3973.453mil|Location2.X=3986.157mil|Location1.Y=3296.534mil|Location2.Y=3312.782mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3973.453mil|Location2.X=3986.157mil|Location1.Y=3296.534mil|Location2.Y=3312.782mil|Absolute=True">Net Antennae: Arc (222.685mil,1580.535mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3973.453mil|Location2.X=3986.157mil|Location1.Y=3296.534mil|Location2.Y=3312.782mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\tnt99\Documents\Thunderbots\MyChanges Feb12\PCB_Wifi\Ublox\Ublox_breakout\bruh.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3973.453mil|Location2.X=3986.157mil|Location1.Y=3296.534mil|Location2.Y=3312.782mil|Absolute=True">Net Antennae: Arc (222.685mil,1580.535mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

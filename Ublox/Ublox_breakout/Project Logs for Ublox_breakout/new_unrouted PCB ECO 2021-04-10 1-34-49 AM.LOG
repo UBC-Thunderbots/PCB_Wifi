@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=UART_RXD Pin=H-2
+Removed Pin From Net: NetName=UART_TXD Pin=H-3
+Removed Pin From Net: NetName=MAIN_RESET Pin=H-4
+Added Component: Designator=R5(0805)
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "200k"; VariantName = "[No Variations]"
+Added Component: Designator=R6(0805)
+Add component (AddParameter): Name = "Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.125W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "200k"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3v3 Pin=R5-2
+Added Pin To Net: NetName=3v3 Pin=R6-2
+Change Net Name : Old Net Name=MAIN_RESET New Net Name=MAIN_RESET_1v8
+Change Net Name : Old Net Name=UART_RXD New Net Name=UART_RXD_1v8
+Change Net Name : Old Net Name=UART_TXD New Net Name=UART_TXD_1v8
+Added Pin To Net: NetName=MAIN_RESET_3v3 Pin=H-4
+Added Net: Name=MAIN_RESET_3v3
+Added Pin To Net: NetName=S1_EN_RES Pin=R6-1
+Added Net: Name=S1_EN_RES
+Added Pin To Net: NetName=S2_EN_RES Pin=R5-1
+Added Net: Name=S2_EN_RES
+Added Pin To Net: NetName=UART_RXD_3v3 Pin=H-2
+Added Net: Name=UART_RXD_3v3
+Added Pin To Net: NetName=UART_TXD_3v3 Pin=H-3
+Added Net: Name=UART_TXD_3v3
+Added Member To Class: ClassName=Ublox_breakout_schem Member=Component R5 200k
+Added Member To Class: ClassName=Ublox_breakout_schem Member=Component R6 200k

@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=PHY_RXN New Net Name=PHY_RX_N
+Change Net Name : Old Net Name=PHY_RXP New Net Name=PHY_RX_P
+Change Net Name : Old Net Name=PHY_TXN New Net Name=PHY_TX_N
+Change Net Name : Old Net Name=PHY_TXP New Net Name=PHY_TX_P
+Added Differential Pair: Name=PHY_RX
+Added Differential Pair: Name=PHY_TX

@@ -1,0 +1,6 @@
+Change Component Description : Designator=CN Old Description=Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded New Description=
+Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded
+
+Added Pin To Net: NetName=3v3 Pin=R3-2
+Added Member To Class: ClassName=Ublox_breakout Member=Component C45 100nF 50V
+Added Room: Name=Ublox_breakout

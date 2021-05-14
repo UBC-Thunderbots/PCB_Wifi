@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MAIN_RESET Pin=H-2
+Removed Pin From Net: NetName=UART_TXD Pin=H-3
+Removed Pin From Net: NetName=GND Pin=H-5
+Removed Pin From Net: NetName=3v3 Pin=H-6
+Added Pin To Net: NetName=3v3 Pin=H-2
+Added Pin To Net: NetName=GND Pin=H-3
+Added Pin To Net: NetName=UART_TXD Pin=H-5
+Added Pin To Net: NetName=MAIN_RESET Pin=H-6

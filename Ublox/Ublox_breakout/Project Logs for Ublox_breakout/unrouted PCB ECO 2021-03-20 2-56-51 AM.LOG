@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=ETH_RXD0 Pin=*-C15
+Removed Pin From Net: NetName=ETH_RXD0 Pin=*-D5
+Removed Pin From Net: NetName=ETH_RXD0 Pin=C-1
+Removed Pin From Net: NetName=RMII_MDIO Pin=C-2
+Removed Pin From Net: NetName=ETH_RXD0 Pin=P-5
+Removed Pin From Net: NetName=ETH_RXD0 Pin=R47-2
+Removed Pin From Net: NetName=ETH_RXD0 Pin=R52-2
+Change Net Name : Old Net Name=ETH_MC New Net Name=ETH_MDC
+Change Net Name : Old Net Name=ETH_RXD0 New Net Name=Net*_D6
+Added Pin To Net: NetName=Net*_D5 Pin=*-D5
+Added Pin To Net: NetName=Net*_D5 Pin=P-5
+Added Pin To Net: NetName=Net*_D5 Pin=R52-2
+Added Net: Name=Net*_D5
+Added Pin To Net: NetName=RMII_MDC Pin=*-C15
+Added Pin To Net: NetName=RMII_MDC Pin=R47-2
+Added Net: Name=RMII_MDC

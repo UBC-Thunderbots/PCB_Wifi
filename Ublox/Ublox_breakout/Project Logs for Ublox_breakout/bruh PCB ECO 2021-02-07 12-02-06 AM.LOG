@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=3v3 Pin=*-A4
+Added Pin To Net: NetName=Net*_1 Pin=B1-2
+Added Pin To Net: NetName=Net*_1 Pin=B2-2
+Added Pin To Net: NetName=Net*_1 Pin=C1-2
+Added Pin To Net: NetName=Net*_1 Pin=C2-2
+Added Pin To Net: NetName=Net*_1 Pin=C3-2
+Added Pin To Net: NetName=Net*_1 Pin=C4-2
+Added Pin To Net: NetName=Net*_1 Pin=C5-2
+Added Pin To Net: NetName=Net*_1 Pin=H-5
+Added Pin To Net: NetName=Net*_1 Pin=R1-1
+Added Pin To Net: NetName=Net*_1 Pin=R2-1
+Added Pin To Net: NetName=1v8 Pin=R13-2
+Added Pin To Net: NetName=1v8 Pin=R57-1
+Added Pin To Net: NetName=1v8 Pin=R83-1
+Added Pin To Net: NetName=Net*_1 Pin=R-2
+Change Net Name : Old Net Name=Net*_1 New Net Name=GND

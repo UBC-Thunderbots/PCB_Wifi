@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=1v8 Pin=D9-2
+Added Member To Class: ClassName=Ublox_breakout Member=Component C2 22uF 10V
+Added Member To Class: ClassName=Ublox_breakout Member=Component R LP2992IM5-1.8

@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=ETH_MDC New Net Name=ETH_MDIO
+Change Net Name : Old Net Name=ETH_MDIO New Net Name=ETH_MDC
+Change Net Name : Old Net Name=RMII_MDC New Net Name=RMII_MDIO
+Change Net Name : Old Net Name=RMII_MDIO New Net Name=RMII_MDC
+Change Net Name : Old Net Name=VDDIO New Net Name=NetC33_2
+Change Class Name : Old Net Name=Ublox_breakout - Copy New Net Name=Ublox_breakout_schem

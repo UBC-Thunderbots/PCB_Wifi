@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ETH_MDIO Pin=C-1
+Removed Pin From Net: NetName=ETH_MC Pin=C-2
+Added Pin To Net: NetName=ETH_RXD0 Pin=*-C15
+Added Pin To Net: NetName=ETH_RXD0 Pin=*-D6
+Added Pin To Net: NetName=ETH_RXD0 Pin=C-1
+Added Pin To Net: NetName=RMII_MDIO Pin=C-2
+Added Pin To Net: NetName=ETH_RXD0 Pin=P-6
+Added Pin To Net: NetName=ETH_RXD0 Pin=R47-2
+Added Pin To Net: NetName=ETH_RXD0 Pin=R53-2

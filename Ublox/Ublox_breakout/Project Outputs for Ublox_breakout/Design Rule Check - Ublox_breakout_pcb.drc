@@ -1,0 +1,473 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\tnt99\Documents\Thunderbots\Michelle v6\PCB_Wifi\Ublox\Ublox_breakout\Ublox_breakout_pcb.PcbDoc
+Date     : 2021-02-12
+Time     : 9:35:31 PM
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Arc (10.519mm,10.123mm) on Top Layer And Track (10.519mm,8.813mm)(10.519mm,9.673mm) on Top Layer Location : [X = 35.856mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (10.519mm,10.123mm) on Top Layer And Track (10.519mm,8.813mm)(10.519mm,9.673mm) on Top Layer Location : [X = 35.982mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (10.519mm,10.123mm) on Top Layer And Track (10.519mm,9.673mm)(10.519mm,9.748mm) on Top Layer Location : [X = 35.854mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (10.519mm,10.123mm) on Top Layer And Track (10.519mm,9.673mm)(10.519mm,9.748mm) on Top Layer Location : [X = 35.984mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (11.719mm,10.123mm) on Top Layer And Track (11.719mm,9.005mm)(11.719mm,9.673mm) on Top Layer Location : [X = 37.056mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (11.719mm,10.123mm) on Top Layer And Track (11.719mm,9.005mm)(11.719mm,9.673mm) on Top Layer Location : [X = 37.182mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (11.719mm,10.123mm) on Top Layer And Track (11.719mm,9.673mm)(11.719mm,9.748mm) on Top Layer Location : [X = 37.054mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (11.719mm,10.123mm) on Top Layer And Track (11.719mm,9.673mm)(11.719mm,9.748mm) on Top Layer Location : [X = 37.184mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (12.919mm,10.123mm) on Top Layer And Track (12.919mm,9.748mm)(12.966mm,9.748mm) on Top Layer Location : [X = 38.316mm][Y = 35.208mm]
+   Violation between Short-Circuit Constraint: Between Arc (12.919mm,10.123mm) on Top Layer And Track (12.919mm,9.748mm)(12.966mm,9.748mm) on Top Layer Location : [X = 38.457mm][Y = 35.223mm]
+   Violation between Short-Circuit Constraint: Between Arc (12.919mm,10.123mm) on Top Layer And Track (12.966mm,9.748mm)(13.027mm,9.686mm) on Top Layer Location : [X = 38.343mm][Y = 35.207mm]
+   Violation between Short-Circuit Constraint: Between Arc (12.919mm,10.123mm) on Top Layer And Track (12.966mm,9.748mm)(13.027mm,9.686mm) on Top Layer Location : [X = 38.487mm][Y = 35.239mm]
+   Violation between Short-Circuit Constraint: Between Arc (12.919mm,10.123mm) on Top Layer And Track (13.027mm,9.686mm)(13.214mm,9.5mm) on Top Layer Location : [X = 38.364mm][Y = 35.207mm]
+   Violation between Short-Circuit Constraint: Between Arc (12.919mm,10.123mm) on Top Layer And Track (13.027mm,9.686mm)(13.214mm,9.5mm) on Top Layer Location : [X = 38.492mm][Y = 35.241mm]
+   Violation between Short-Circuit Constraint: Between Arc (14.119mm,10.123mm) on Top Layer And Track (14.119mm,8.992mm)(14.119mm,9.673mm) on Top Layer Location : [X = 39.456mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (14.119mm,10.123mm) on Top Layer And Track (14.119mm,8.992mm)(14.119mm,9.673mm) on Top Layer Location : [X = 39.582mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (14.119mm,10.123mm) on Top Layer And Track (14.119mm,9.673mm)(14.119mm,9.748mm) on Top Layer Location : [X = 39.454mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (14.119mm,10.123mm) on Top Layer And Track (14.119mm,9.673mm)(14.119mm,9.748mm) on Top Layer Location : [X = 39.584mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (15.319mm,10.123mm) on Top Layer And Track (15.319mm,10.573mm)(15.319mm,11.273mm) on Top Layer Location : [X = 40.656mm][Y = 36.091mm]
+   Violation between Short-Circuit Constraint: Between Arc (15.319mm,10.123mm) on Top Layer And Track (15.319mm,10.573mm)(15.319mm,11.273mm) on Top Layer Location : [X = 40.782mm][Y = 36.091mm]
+   Violation between Short-Circuit Constraint: Between Arc (15.319mm,10.123mm) on Top Layer And Track (15.319mm,9.748mm)(15.319mm,10.573mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (15.319mm,10.123mm) on Top Layer And Track (15.319mm,9.748mm)(15.319mm,10.573mm) on Top Layer Location : [X = 40.784mm][Y = 36.09mm]
+   Violation between Short-Circuit Constraint: Between Arc (16.519mm,10.123mm) on Top Layer And Track (16.519mm,8.255mm)(16.519mm,9.673mm) on Top Layer Location : [X = 41.856mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (16.519mm,10.123mm) on Top Layer And Track (16.519mm,8.255mm)(16.519mm,9.673mm) on Top Layer Location : [X = 41.982mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (16.519mm,10.123mm) on Top Layer And Track (16.519mm,9.673mm)(16.519mm,9.748mm) on Top Layer Location : [X = 41.854mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (16.519mm,10.123mm) on Top Layer And Track (16.519mm,9.673mm)(16.519mm,9.748mm) on Top Layer Location : [X = 41.984mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,10.523mm) on Top Layer And Track (19.544mm,10.274mm)(19.544mm,10.523mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,10.523mm) on Top Layer And Track (19.544mm,10.274mm)(19.544mm,10.523mm) on Top Layer Location : [X = 44.982mm][Y = 35.925mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,10.523mm) on Top Layer And Track (19.544mm,7.62mm)(19.544mm,10.274mm) on Top Layer Location : [X = 44.88mm][Y = 35.736mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,10.523mm) on Top Layer And Track (19.544mm,7.62mm)(19.544mm,10.274mm) on Top Layer Location : [X = 44.971mm][Y = 35.86mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (18.342mm,12.272mm)(18.727mm,12.656mm) on Top Layer Location : [X = 44.175mm][Y = 38.246mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (18.342mm,12.272mm)(18.727mm,12.656mm) on Top Layer Location : [X = 44.227mm][Y = 38.159mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (18.727mm,12.656mm)(18.807mm,12.656mm) on Top Layer Location : [X = 44.175mm][Y = 38.248mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (18.727mm,12.656mm)(18.807mm,12.656mm) on Top Layer Location : [X = 44.253mm][Y = 38.138mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (18.807mm,12.656mm)(19.296mm,12.656mm) on Top Layer Location : [X = 44.177mm][Y = 38.24mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (18.807mm,12.656mm)(19.296mm,12.656mm) on Top Layer Location : [X = 44.284mm][Y = 38.119mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.296mm,12.656mm)(19.544mm,12.904mm) on Top Layer Location : [X = 44.994mm][Y = 38.306mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.296mm,12.656mm)(19.544mm,12.904mm) on Top Layer Location : [X = 45.009mm][Y = 38.385mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.296mm,12.656mm)(19.544mm,12.904mm) on Top Layer Location : [X = 45.015mm][Y = 38.496mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.848mm)(19.544mm,12.904mm) on Top Layer Location : [X = 44.984mm][Y = 38.285mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.848mm)(19.544mm,12.904mm) on Top Layer Location : [X = 45.009mm][Y = 38.385mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.848mm)(19.544mm,12.904mm) on Top Layer Location : [X = 45.015mm][Y = 38.496mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.848mm)(19.6mm,12.792mm) on Top Layer Location : [X = 44.972mm][Y = 38.261mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.848mm)(19.6mm,12.792mm) on Top Layer Location : [X = 45.009mm][Y = 38.385mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.848mm)(19.6mm,12.792mm) on Top Layer Location : [X = 45.018mm][Y = 38.465mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.904mm)(19.544mm,12.923mm) on Top Layer Location : [X = 44.997mm][Y = 38.316mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.904mm)(19.544mm,12.923mm) on Top Layer Location : [X = 45.009mm][Y = 38.385mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.544mm,12.904mm)(19.544mm,12.923mm) on Top Layer Location : [X = 45.011mm][Y = 38.507mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.6mm,12.792mm)(19.792mm,12.6mm) on Top Layer Location : [X = 44.969mm][Y = 38.257mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,12.923mm) on Top Layer And Track (19.6mm,12.792mm)(19.792mm,12.6mm) on Top Layer Location : [X = 45.009mm][Y = 38.382mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,14.123mm) on Top Layer And Track (19.544mm,14.123mm)(19.619mm,14.123mm) on Top Layer Location : [X = 45.009mm][Y = 39.65mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,14.123mm) on Top Layer And Track (19.619mm,14.123mm)(20.354mm,14.123mm) on Top Layer Location : [X = 45.01mm][Y = 39.65mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,16.523mm) on Top Layer And Track (19.544mm,16.523mm)(19.556mm,16.535mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,16.523mm) on Top Layer And Track (19.544mm,16.523mm)(19.556mm,16.535mm) on Top Layer Location : [X = 45.019mm][Y = 42.056mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,16.523mm) on Top Layer And Track (19.556mm,16.535mm)(19.619mm,16.535mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,16.523mm) on Top Layer And Track (19.556mm,16.535mm)(19.619mm,16.535mm) on Top Layer Location : [X = 45.019mm][Y = 42.056mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,16.523mm) on Top Layer And Track (19.619mm,16.535mm)(20.516mm,16.535mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,16.523mm) on Top Layer And Track (19.619mm,16.535mm)(20.516mm,16.535mm) on Top Layer Location : [X = 45.019mm][Y = 42.056mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,17.723mm) on Top Layer And Track (19.544mm,17.723mm)(19.619mm,17.723mm) on Top Layer Location : [X = 45.009mm][Y = 43.25mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,17.723mm) on Top Layer And Track (19.619mm,17.723mm)(28.184mm,17.723mm) on Top Layer Location : [X = 45.01mm][Y = 43.25mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,18.923mm) on Top Layer And Track (19.544mm,18.923mm)(19.619mm,18.923mm) on Top Layer Location : [X = 45.009mm][Y = 44.45mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,18.923mm) on Top Layer And Track (19.619mm,18.923mm)(22.873mm,18.923mm) on Top Layer Location : [X = 45.01mm][Y = 44.45mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,20.123mm) on Top Layer And Track (19.544mm,20.123mm)(19.619mm,20.123mm) on Top Layer Location : [X = 45.009mm][Y = 45.65mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,20.123mm) on Top Layer And Track (19.619mm,20.123mm)(22.518mm,20.123mm) on Top Layer Location : [X = 45.01mm][Y = 45.65mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,22.523mm) on Top Layer And Track (19.544mm,22.523mm)(19.619mm,22.523mm) on Top Layer Location : [X = 45.009mm][Y = 47.984mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,22.523mm) on Top Layer And Track (19.544mm,22.523mm)(19.619mm,22.523mm) on Top Layer Location : [X = 45.009mm][Y = 48.115mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,22.523mm) on Top Layer And Track (19.544mm,22.523mm)(19.619mm,22.523mm) on Top Layer Location : [X = 45.019mm][Y = 48.049mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,22.523mm) on Top Layer And Track (19.619mm,22.523mm)(23.793mm,22.523mm) on Top Layer Location : [X = 45.009mm][Y = 47.986mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,22.523mm) on Top Layer And Track (19.619mm,22.523mm)(23.793mm,22.523mm) on Top Layer Location : [X = 45.019mm][Y = 48.049mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,22.523mm) on Top Layer And Track (19.619mm,22.523mm)(23.793mm,22.523mm) on Top Layer Location : [X = 45.01mm][Y = 48.113mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,24.923mm) on Top Layer And Track (19.544mm,24.923mm)(19.619mm,24.923mm) on Top Layer Location : [X = 45.009mm][Y = 50.45mm]
+   Violation between Short-Circuit Constraint: Between Arc (19.169mm,24.923mm) on Top Layer And Track (19.619mm,24.923mm)(26.883mm,24.923mm) on Top Layer Location : [X = 45.01mm][Y = 50.45mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,14.123mm) on Top Layer And Track (5.094mm,14.123mm)(5.919mm,14.123mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,14.123mm) on Top Layer And Track (5.094mm,14.123mm)(5.919mm,14.123mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,14.123mm) on Top Layer And Track (5.919mm,14.123mm)(6.336mm,14.123mm) on Top Layer Location : [X = 31.31mm][Y = 39.587mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,14.123mm) on Top Layer And Track (5.919mm,14.123mm)(6.336mm,14.123mm) on Top Layer Location : [X = 31.31mm][Y = 39.713mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,15.323mm) on Top Layer And Track (4.147mm,15.323mm)(5.019mm,15.323mm) on Top Layer Location : [X = 30.428mm][Y = 40.787mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,15.323mm) on Top Layer And Track (4.147mm,15.323mm)(5.019mm,15.323mm) on Top Layer Location : [X = 30.428mm][Y = 40.913mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,15.323mm) on Top Layer And Track (5.019mm,15.323mm)(5.094mm,15.323mm) on Top Layer Location : [X = 30.429mm][Y = 40.785mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,15.323mm) on Top Layer And Track (5.019mm,15.323mm)(5.094mm,15.323mm) on Top Layer Location : [X = 30.429mm][Y = 40.915mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,23.723mm) on Top Layer And Track (5.094mm,23.723mm)(5.702mm,23.723mm) on Top Layer Location : [X = 30.427mm][Y = 49.193mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,23.723mm) on Top Layer And Track (5.094mm,23.723mm)(5.702mm,23.723mm) on Top Layer Location : [X = 30.427mm][Y = 49.307mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,23.723mm) on Top Layer And Track (5.702mm,23.723mm)(5.882mm,23.903mm) on Top Layer Location : [X = 31.248mm][Y = 49.483mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,23.723mm) on Top Layer And Track (5.702mm,23.723mm)(5.882mm,23.903mm) on Top Layer Location : [X = 31.299mm][Y = 49.355mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,23.723mm) on Top Layer And Track (5.882mm,23.903mm)(6.902mm,24.923mm) on Top Layer Location : [X = 31.246mm][Y = 49.486mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,23.723mm) on Top Layer And Track (5.882mm,23.903mm)(6.902mm,24.923mm) on Top Layer Location : [X = 31.298mm][Y = 49.368mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,27.323mm) on Top Layer And Track (5.019mm,27.323mm)(5.094mm,27.323mm) on Top Layer Location : [X = 30.429mm][Y = 52.785mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,27.323mm) on Top Layer And Track (5.019mm,27.323mm)(5.094mm,27.323mm) on Top Layer Location : [X = 30.429mm][Y = 52.915mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,27.323mm) on Top Layer And Track (5.094mm,27.323mm)(5.919mm,27.323mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,27.323mm) on Top Layer And Track (5.094mm,27.323mm)(5.919mm,27.323mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,27.323mm) on Top Layer And Track (5.919mm,27.323mm)(6.619mm,27.323mm) on Top Layer Location : [X = 31.31mm][Y = 52.787mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,27.323mm) on Top Layer And Track (5.919mm,27.323mm)(6.619mm,27.323mm) on Top Layer Location : [X = 31.31mm][Y = 52.913mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,28.523mm) on Top Layer And Track (5.094mm,28.523mm)(5.919mm,28.523mm) on Top Layer Location : [X = 0mm][Y = 0mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,28.523mm) on Top Layer And Track (5.919mm,28.523mm)(6.619mm,28.523mm) on Top Layer Location : [X = 31.31mm][Y = 54.05mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,30.923mm) on Top Layer And Track (5.038mm,31.054mm)(5.169mm,30.923mm) on Top Layer Location : [X = 30.429mm][Y = 56.496mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,30.923mm) on Top Layer And Track (5.038mm,31.054mm)(5.169mm,30.923mm) on Top Layer Location : [X = 30.466mm][Y = 56.639mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,30.923mm) on Top Layer And Track (5.169mm,30.923mm)(5.919mm,30.923mm) on Top Layer Location : [X = 31.309mm][Y = 56.385mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,30.923mm) on Top Layer And Track (5.169mm,30.923mm)(5.919mm,30.923mm) on Top Layer Location : [X = 31.309mm][Y = 56.515mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,30.923mm) on Top Layer And Track (5.919mm,30.923mm)(6.619mm,30.923mm) on Top Layer Location : [X = 31.31mm][Y = 56.387mm]
+   Violation between Short-Circuit Constraint: Between Arc (5.469mm,30.923mm) on Top Layer And Track (5.919mm,30.923mm)(6.619mm,30.923mm) on Top Layer Location : [X = 31.31mm][Y = 56.513mm]
+   Violation between Short-Circuit Constraint: Between Arc (8.119mm,10.123mm) on Top Layer And Track (8.119mm,9.02mm)(8.119mm,9.673mm) on Top Layer Location : [X = 33.456mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (8.119mm,10.123mm) on Top Layer And Track (8.119mm,9.02mm)(8.119mm,9.673mm) on Top Layer Location : [X = 33.582mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (8.119mm,10.123mm) on Top Layer And Track (8.119mm,9.673mm)(8.119mm,9.748mm) on Top Layer Location : [X = 33.454mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (8.119mm,10.123mm) on Top Layer And Track (8.119mm,9.673mm)(8.119mm,9.748mm) on Top Layer Location : [X = 33.584mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (9.319mm,10.123mm) on Top Layer And Track (9.319mm,8.664mm)(9.319mm,9.673mm) on Top Layer Location : [X = 34.656mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (9.319mm,10.123mm) on Top Layer And Track (9.319mm,8.664mm)(9.319mm,9.673mm) on Top Layer Location : [X = 34.782mm][Y = 35.209mm]
+   Violation between Short-Circuit Constraint: Between Arc (9.319mm,10.123mm) on Top Layer And Track (9.319mm,9.673mm)(9.319mm,9.748mm) on Top Layer Location : [X = 34.654mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Arc (9.319mm,10.123mm) on Top Layer And Track (9.319mm,9.673mm)(9.319mm,9.748mm) on Top Layer Location : [X = 34.784mm][Y = 35.21mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-25(13.859mm,17.123mm) on Top Layer Location : [X = 39.259mm][Y = 42.65mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-26(13.859mm,18.923mm) on Top Layer Location : [X = 39.259mm][Y = 44.45mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-27(13.859mm,20.723mm) on Top Layer Location : [X = 39.259mm][Y = 46.25mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-28(13.859mm,22.523mm) on Top Layer Location : [X = 39.259mm][Y = 48.05mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-29(13.859mm,26.123mm) on Top Layer Location : [X = 39.259mm][Y = 51.65mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-30(13.019mm,27.923mm) on Top Layer Location : [X = 38.419mm][Y = 53.45mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-31(12.319mm,17.123mm) on Top Layer Location : [X = 37.719mm][Y = 42.65mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-32(12.319mm,18.923mm) on Top Layer Location : [X = 37.719mm][Y = 44.45mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-33(12.319mm,20.723mm) on Top Layer Location : [X = 37.719mm][Y = 46.25mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-34(10.779mm,17.123mm) on Top Layer Location : [X = 36.179mm][Y = 42.65mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-35(10.779mm,18.923mm) on Top Layer Location : [X = 36.179mm][Y = 44.45mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-36(10.779mm,20.723mm) on Top Layer Location : [X = 36.179mm][Y = 46.25mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-37(10.779mm,22.523mm) on Top Layer Location : [X = 36.179mm][Y = 48.05mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-38(10.779mm,26.123mm) on Top Layer Location : [X = 36.179mm][Y = 51.65mm]
+   Violation between Short-Circuit Constraint: Between Area Fill (7.509mm,11.855mm) (17.034mm,29.635mm) on Top Layer And Pad U-39(11.619mm,27.923mm) on Top Layer Location : [X = 37.019mm][Y = 53.45mm]
+   Violation between Short-Circuit Constraint: Between Pad B1-1(28.811mm,22.225mm) on Top Layer And Track (27.199mm,22.225mm)(28.811mm,22.225mm) on Top Layer Location : [X = 53.728mm][Y = 47.752mm]
+   Violation between Short-Circuit Constraint: Between Pad B1-2(37.991mm,22.225mm) on Top Layer And Track (37.991mm,18.474mm)(37.991mm,22.225mm) on Top Layer Location : [X = 63.391mm][Y = 47.417mm]
+   Violation between Short-Circuit Constraint: Between Pad B1-2(37.991mm,22.225mm) on Top Layer And Track (37.991mm,22.225mm)(38.258mm,22.225mm) on Top Layer Location : [X = 63.524mm][Y = 47.752mm]
+   Violation between Short-Circuit Constraint: Between Pad B1-2(37.991mm,22.225mm) on Top Layer And Track (38.258mm,22.225mm)(38.931mm,22.898mm) on Top Layer Location : [X = 63.994mm][Y = 48.087mm]
+   Violation between Short-Circuit Constraint: Between Pad B1-2(37.991mm,22.225mm) on Top Layer And Track (38.931mm,22.898mm)(38.931mm,27.051mm) on Top Layer Location : [X = 64.331mm][Y = 48.424mm]
+   Violation between Short-Circuit Constraint: Between Pad B2-1(28.192mm,13.125mm) on Top Layer And Track (24.146mm,13.096mm)(28.163mm,13.096mm) on Top Layer Location : [X = 53.095mm][Y = 38.623mm]
+   Violation between Short-Circuit Constraint: Between Pad B2-1(28.192mm,13.125mm) on Top Layer And Track (28.163mm,13.096mm)(28.192mm,13.125mm) on Top Layer Location : [X = 53.578mm][Y = 38.638mm]
+   Violation between Short-Circuit Constraint: Between Pad B2-2(37.372mm,13.125mm) on Top Layer And Track (37.372mm,11.092mm)(37.372mm,13.125mm) on Top Layer Location : [X = 62.772mm][Y = 38.317mm]
+   Violation between Short-Circuit Constraint: Between Pad B2-2(37.372mm,13.125mm) on Top Layer And Track (37.372mm,13.125mm)(37.405mm,13.158mm) on Top Layer Location : [X = 62.788mm][Y = 38.668mm]
+   Violation between Short-Circuit Constraint: Between Pad B2-2(37.372mm,13.125mm) on Top Layer And Track (37.405mm,13.158mm)(37.405mm,17.697mm) on Top Layer Location : [X = 62.805mm][Y = 39.004mm]
+   Violation between Short-Circuit Constraint: Between Pad D2-1(28.784mm,17.697mm) on Top Layer And Track (19.619mm,17.723mm)(28.184mm,17.723mm) on Top Layer Location : [X = 53.574mm][Y = 43.25mm]
+   Violation between Short-Circuit Constraint: Between Pad D2-1(28.784mm,17.697mm) on Top Layer And Track (28.184mm,17.723mm)(28.21mm,17.697mm) on Top Layer Location : [X = 53.597mm][Y = 43.237mm]
+   Violation between Short-Circuit Constraint: Between Pad D2-2(32.284mm,17.697mm) on Top Layer And Track (31.71mm,17.697mm)(32.284mm,17.697mm) on Top Layer Location : [X = 57.397mm][Y = 43.224mm]
+   Violation between Short-Circuit Constraint: Between Pad D2-2(32.284mm,17.697mm) on Top Layer And Track (32.284mm,17.697mm)(35.525mm,17.697mm) on Top Layer Location : [X = 57.994mm][Y = 43.224mm]
+   Violation between Short-Circuit Constraint: Between Pad D3-1(31.248mm,27.051mm) on Top Layer And Track (29.644mm,25.878mm)(30.625mm,25.878mm) on Top Layer Location : [X = 56.026mm][Y = 51.406mm]
+   Violation between Short-Circuit Constraint: Between Pad D3-1(31.248mm,27.051mm) on Top Layer And Track (30.625mm,25.878mm)(31.248mm,26.501mm) on Top Layer Location : [X = 56.338mm][Y = 51.718mm]
+   Violation between Short-Circuit Constraint: Between Pad D3-1(31.248mm,27.051mm) on Top Layer And Track (31.248mm,26.501mm)(31.248mm,27.051mm) on Top Layer Location : [X = 56.648mm][Y = 52.303mm]
+   Violation between Short-Circuit Constraint: Between Pad D3-2(34.248mm,27.051mm) on Top Layer And Track (34.248mm,27.051mm)(37.051mm,27.051mm) on Top Layer Location : [X = 59.958mm][Y = 52.578mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-1(20.59mm,1.441mm) on Multi-Layer And Track (19.243mm,2.788mm)(20.59mm,1.441mm) on Top Layer Location : [X = 45.68mm][Y = 27.278mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-10(10.43mm,3.981mm) on Multi-Layer And Track (10.43mm,3.981mm)(10.43mm,4.172mm) on Bottom Layer Location : [X = 35.83mm][Y = 29.603mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-10(10.43mm,3.981mm) on Multi-Layer And Track (3.221mm,11.381mm)(10.43mm,4.172mm) on Bottom Layer Location : [X = 35.631mm][Y = 29.881mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-11(7.89mm,1.441mm) on Multi-Layer And Track (7.89mm,1.441mm)(7.89mm,3.981mm) on Top Layer Location : [X = 33.29mm][Y = 27.279mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-11(7.89mm,1.441mm) on Multi-Layer And Track (7.89mm,1.441mm)(9.021mm,0.31mm) on Top Layer Location : [X = 33.533mm][Y = 26.725mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-12(7.89mm,3.981mm) on Multi-Layer And Track (7.89mm,1.441mm)(7.89mm,3.981mm) on Top Layer Location : [X = 33.29mm][Y = 29.197mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-13(5.35mm,1.441mm) on Multi-Layer And Track (5.35mm,1.441mm)(5.35mm,3.981mm) on Top Layer Location : [X = 30.75mm][Y = 27.279mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-14(5.35mm,3.981mm) on Multi-Layer And Track (5.35mm,1.441mm)(5.35mm,3.981mm) on Top Layer Location : [X = 30.75mm][Y = 29.197mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-2(20.59mm,3.981mm) on Multi-Layer And Track (20.59mm,3.981mm)(20.59mm,6.574mm) on Top Layer Location : [X = 45.99mm][Y = 29.819mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-3(18.05mm,1.441mm) on Multi-Layer And Track (16.895mm,2.596mm)(18.05mm,1.441mm) on Top Layer Location : [X = 43.207mm][Y = 27.211mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-4(18.05mm,3.981mm) on Multi-Layer And Track (13.214mm,8.992mm)(18.05mm,4.156mm) on Top Layer Location : [X = 43.247mm][Y = 29.87mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-4(18.05mm,3.981mm) on Multi-Layer And Track (18.05mm,3.981mm)(18.05mm,4.156mm) on Top Layer Location : [X = 43.45mm][Y = 29.595mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-5(15.51mm,1.441mm) on Multi-Layer And Track (14.379mm,1.631mm)(15.32mm,1.631mm) on Top Layer Location : [X = 40.506mm][Y = 27.158mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-5(15.51mm,1.441mm) on Multi-Layer And Track (15.32mm,1.631mm)(15.51mm,1.441mm) on Top Layer Location : [X = 40.815mm][Y = 27.063mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-6(15.51mm,3.981mm) on Multi-Layer And Track (14.379mm,4.189mm)(15.302mm,4.189mm) on Top Layer Location : [X = 40.497mm][Y = 29.716mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-6(15.51mm,3.981mm) on Multi-Layer And Track (15.302mm,4.189mm)(15.51mm,3.981mm) on Top Layer Location : [X = 40.806mm][Y = 29.612mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-7(12.97mm,1.441mm) on Multi-Layer And Track (12.97mm,1.441mm)(13.208mm,1.679mm) on Bottom Layer Location : [X = 38.489mm][Y = 27.087mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-7(12.97mm,1.441mm) on Multi-Layer And Track (13.208mm,1.679mm)(13.208mm,2.525mm) on Bottom Layer Location : [X = 38.608mm][Y = 27.394mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-8(12.97mm,3.981mm) on Multi-Layer And Track (12.97mm,3.981mm)(12.97mm,7.754mm) on Bottom Layer Location : [X = 38.37mm][Y = 29.819mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-9(10.43mm,1.441mm) on Multi-Layer And Track (10.43mm,1.441mm)(10.43mm,1.635mm) on Top Layer Location : [X = 35.83mm][Y = 27.065mm]
+   Violation between Short-Circuit Constraint: Between Pad P1-9(10.43mm,1.441mm) on Multi-Layer And Track (9.021mm,3.044mm)(10.43mm,1.635mm) on Top Layer Location : [X = 35.632mm][Y = 27.342mm]
+   Violation between Short-Circuit Constraint: Between Pad P2-1(34.326mm,31.496mm) on Multi-Layer And Track (32.421mm,29.591mm)(34.326mm,31.496mm) on Top Layer Location : [X = 59.416mm][Y = 56.713mm]
+   Violation between Short-Circuit Constraint: Between Pad P2-2(31.786mm,31.496mm) on Multi-Layer And Track (28.811mm,28.521mm)(31.786mm,31.496mm) on Top Layer Location : [X = 56.943mm][Y = 56.78mm]
+   Violation between Short-Circuit Constraint: Between Pad R1-1(38.931mm,27.051mm) on Top Layer And Track (38.931mm,22.898mm)(38.931mm,27.051mm) on Top Layer Location : [X = 64.331mm][Y = 52.293mm]
+   Violation between Short-Circuit Constraint: Between Pad R1-2(37.051mm,27.051mm) on Top Layer And Track (34.248mm,27.051mm)(37.051mm,27.051mm) on Top Layer Location : [X = 62.262mm][Y = 52.578mm]
+   Violation between Short-Circuit Constraint: Between Pad R2-1(37.405mm,17.697mm) on Top Layer And Track (37.405mm,13.158mm)(37.405mm,17.697mm) on Top Layer Location : [X = 62.805mm][Y = 42.939mm]
+   Violation between Short-Circuit Constraint: Between Pad R2-1(37.405mm,17.697mm) on Top Layer And Track (37.405mm,17.697mm)(37.405mm,17.887mm) on Top Layer Location : [X = 62.805mm][Y = 43.319mm]
+   Violation between Short-Circuit Constraint: Between Pad R2-1(37.405mm,17.697mm) on Top Layer And Track (37.405mm,17.887mm)(37.991mm,18.474mm) on Top Layer Location : [X = 62.994mm][Y = 43.604mm]
+   Violation between Short-Circuit Constraint: Between Pad R2-1(37.405mm,17.697mm) on Top Layer And Track (37.991mm,18.474mm)(37.991mm,22.225mm) on Top Layer Location : [X = 63.302mm][Y = 43.911mm]
+   Violation between Short-Circuit Constraint: Between Pad R2-2(35.525mm,17.697mm) on Top Layer And Track (32.284mm,17.697mm)(35.525mm,17.697mm) on Top Layer Location : [X = 60.736mm][Y = 43.224mm]
+   Violation between Short-Circuit Constraint: Between Pad R3-1(25.654mm,19.634mm) on Top Layer And Track (25.463mm,19.651mm)(25.654mm,19.651mm) on Top Layer Location : [X = 50.959mm][Y = 45.178mm]
+   Violation between Short-Circuit Constraint: Between Pad R3-1(25.654mm,19.634mm) on Top Layer And Track (25.654mm,19.634mm)(25.67mm,19.651mm) on Top Layer Location : [X = 51.062mm][Y = 45.169mm]
+   Violation between Short-Circuit Constraint: Between Pad R3-1(25.654mm,19.634mm) on Top Layer And Track (25.67mm,19.651mm)(27.634mm,19.651mm) on Top Layer Location : [X = 51.347mm][Y = 45.178mm]
+   Violation between Short-Circuit Constraint: Between Pad R3-2(25.654mm,21.514mm) on Top Layer And Track (22.873mm,18.923mm)(25.463mm,21.514mm) on Top Layer Location : [X = 50.674mm][Y = 46.852mm]
+   Violation between Short-Circuit Constraint: Between Pad R3-2(25.654mm,21.514mm) on Top Layer And Track (25.463mm,21.514mm)(25.654mm,21.514mm) on Top Layer Location : [X = 50.959mm][Y = 47.041mm]
+   Violation between Short-Circuit Constraint: Between Pad R3-2(25.654mm,21.514mm) on Top Layer And Track (25.654mm,21.514mm)(26.035mm,21.895mm) on Top Layer Location : [X = 51.245mm][Y = 47.23mm]
+   Violation between Short-Circuit Constraint: Between Pad R3-2(25.654mm,21.514mm) on Top Layer And Track (26.035mm,21.895mm)(26.869mm,21.895mm) on Top Layer Location : [X = 51.529mm][Y = 47.421mm]
+   Violation between Short-Circuit Constraint: Between Pad R4-1(24.146mm,11.217mm) on Top Layer And Track (22.879mm,11.598mm)(23.765mm,11.598mm) on Top Layer Location : [X = 49.071mm][Y = 37.123mm]
+   Violation between Short-Circuit Constraint: Between Pad R4-1(24.146mm,11.217mm) on Top Layer And Track (23.765mm,11.598mm)(24.146mm,11.217mm) on Top Layer Location : [X = 49.355mm][Y = 36.933mm]
+   Violation between Short-Circuit Constraint: Between Pad R4-1(24.146mm,11.217mm) on Top Layer And Track (24.146mm,11.217mm)(25.794mm,11.217mm) on Top Layer Location : [X = 49.831mm][Y = 36.744mm]
+   Violation between Short-Circuit Constraint: Between Pad R4-2(24.146mm,13.096mm) on Top Layer And Track (20.516mm,16.535mm)(23.955mm,13.096mm) on Top Layer Location : [X = 49.166mm][Y = 38.813mm]
+   Violation between Short-Circuit Constraint: Between Pad R4-2(24.146mm,13.096mm) on Top Layer And Track (23.955mm,13.096mm)(24.146mm,13.096mm) on Top Layer Location : [X = 49.451mm][Y = 38.623mm]
+   Violation between Short-Circuit Constraint: Between Pad R4-2(24.146mm,13.096mm) on Top Layer And Track (24.146mm,13.096mm)(28.163mm,13.096mm) on Top Layer Location : [X = 49.831mm][Y = 38.623mm]
+   Violation between Short-Circuit Constraint: Between Pad U-1(18.019mm,27.323mm) on Top Layer And Track (16.5mm,27.323mm)(18.019mm,27.323mm) on Top Layer Location : [X = 43.283mm][Y = 52.85mm]
+   Violation between Short-Circuit Constraint: Between Pad U-1(18.019mm,27.323mm) on Top Layer And Track (18.019mm,27.323mm)(18.019mm,28.523mm) on Top Layer Location : [X = 43.419mm][Y = 52.986mm]
+   Violation between Short-Circuit Constraint: Between Pad U-10(10.519mm,30.173mm) on Top Layer And Track (10.519mm,29.165mm)(10.519mm,30.173mm) on Top Layer Location : [X = 35.919mm][Y = 55.564mm]
+   Violation between Short-Circuit Constraint: Between Pad U-11(9.319mm,30.173mm) on Top Layer And Track (9.319mm,29.508mm)(9.319mm,30.173mm) on Top Layer Location : [X = 34.719mm][Y = 55.564mm]
+   Violation between Short-Circuit Constraint: Between Pad U-12(8.119mm,30.173mm) on Top Layer And Track (8.119mm,29.279mm)(8.119mm,30.173mm) on Top Layer Location : [X = 33.519mm][Y = 55.564mm]
+   Violation between Short-Circuit Constraint: Between Pad U-13(6.619mm,30.923mm) on Top Layer And Track (5.919mm,30.923mm)(6.619mm,30.923mm) on Top Layer Location : [X = 31.883mm][Y = 56.45mm]
+   Violation between Short-Circuit Constraint: Between Pad U-13(6.619mm,30.923mm) on Top Layer And Track (6.619mm,29.723mm)(6.619mm,30.923mm) on Top Layer Location : [X = 32.019mm][Y = 56.314mm]
+   Violation between Short-Circuit Constraint: Between Pad U-14(6.619mm,29.723mm) on Top Layer And Track (6.619mm,28.523mm)(6.619mm,29.723mm) on Top Layer Location : [X = 32.019mm][Y = 55.114mm]
+   Violation between Short-Circuit Constraint: Between Pad U-14(6.619mm,29.723mm) on Top Layer And Track (6.619mm,29.723mm)(6.619mm,30.923mm) on Top Layer Location : [X = 32.019mm][Y = 55.386mm]
+   Violation between Short-Circuit Constraint: Between Pad U-15(6.619mm,28.523mm) on Top Layer And Track (5.919mm,28.523mm)(6.619mm,28.523mm) on Top Layer Location : [X = 31.883mm][Y = 54.05mm]
+   Violation between Short-Circuit Constraint: Between Pad U-15(6.619mm,28.523mm) on Top Layer And Track (6.619mm,27.323mm)(6.619mm,28.523mm) on Top Layer Location : [X = 32.019mm][Y = 53.914mm]
+   Violation between Short-Circuit Constraint: Between Pad U-15(6.619mm,28.523mm) on Top Layer And Track (6.619mm,28.523mm)(6.619mm,29.723mm) on Top Layer Location : [X = 32.019mm][Y = 54.186mm]
+   Violation between Short-Circuit Constraint: Between Pad U-16(6.619mm,27.323mm) on Top Layer And Track (5.919mm,27.323mm)(6.619mm,27.323mm) on Top Layer Location : [X = 31.883mm][Y = 52.85mm]
+   Violation between Short-Circuit Constraint: Between Pad U-16(6.619mm,27.323mm) on Top Layer And Track (6.619mm,27.323mm)(6.619mm,28.523mm) on Top Layer Location : [X = 32.019mm][Y = 52.986mm]
+   Violation between Short-Circuit Constraint: Between Pad U-16(6.619mm,27.323mm) on Top Layer And Track (6.619mm,27.323mm)(8.17mm,27.323mm) on Top Layer Location : [X = 32.155mm][Y = 52.85mm]
+   Violation between Short-Circuit Constraint: Between Pad U-17(8.119mm,11.273mm) on Top Layer And Track (8.119mm,11.273mm)(8.119mm,12.529mm) on Top Layer Location : [X = 33.519mm][Y = 36.936mm]
+   Violation between Short-Circuit Constraint: Between Pad U-17(8.119mm,11.273mm) on Top Layer And Track (8.168mm,11.322mm)(8.271mm,11.22mm) on Top Layer Location : [X = 33.62mm][Y = 36.798mm]
+   Violation between Short-Circuit Constraint: Between Pad U-17(8.119mm,11.273mm) on Top Layer And Track (8.271mm,11.22mm)(8.324mm,11.273mm) on Top Layer Location : [X = 33.697mm][Y = 36.773mm]
+   Violation between Short-Circuit Constraint: Between Pad U-17(8.119mm,11.273mm) on Top Layer And Track (8.324mm,11.273mm)(9.319mm,11.273mm) on Top Layer Location : [X = 33.758mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-18(9.319mm,11.273mm) on Top Layer And Track (8.324mm,11.273mm)(9.319mm,11.273mm) on Top Layer Location : [X = 34.583mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-18(9.319mm,11.273mm) on Top Layer And Track (9.319mm,11.273mm)(10.519mm,11.273mm) on Top Layer Location : [X = 34.855mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-19(10.519mm,11.273mm) on Top Layer And Track (10.519mm,11.273mm)(11.719mm,11.273mm) on Top Layer Location : [X = 36.055mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-19(10.519mm,11.273mm) on Top Layer And Track (9.319mm,11.273mm)(10.519mm,11.273mm) on Top Layer Location : [X = 35.783mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-2(18.019mm,28.523mm) on Top Layer And Track (18.019mm,27.323mm)(18.019mm,28.523mm) on Top Layer Location : [X = 43.419mm][Y = 53.914mm]
+   Violation between Short-Circuit Constraint: Between Pad U-2(18.019mm,28.523mm) on Top Layer And Track (18.019mm,28.523mm)(18.019mm,29.723mm) on Top Layer Location : [X = 43.419mm][Y = 54.186mm]
+   Violation between Short-Circuit Constraint: Between Pad U-20(11.719mm,11.273mm) on Top Layer And Track (10.519mm,11.273mm)(11.719mm,11.273mm) on Top Layer Location : [X = 36.983mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-20(11.719mm,11.273mm) on Top Layer And Track (11.719mm,11.273mm)(12.919mm,11.273mm) on Top Layer Location : [X = 37.255mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-21(12.919mm,11.273mm) on Top Layer And Track (11.719mm,11.273mm)(12.919mm,11.273mm) on Top Layer Location : [X = 38.183mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-21(12.919mm,11.273mm) on Top Layer And Track (12.919mm,11.273mm)(14.119mm,11.273mm) on Top Layer Location : [X = 38.455mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-22(14.119mm,11.273mm) on Top Layer And Track (12.919mm,11.273mm)(14.119mm,11.273mm) on Top Layer Location : [X = 39.383mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-22(14.119mm,11.273mm) on Top Layer And Track (14.119mm,11.273mm)(15.319mm,11.273mm) on Top Layer Location : [X = 39.655mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-23(15.319mm,11.273mm) on Top Layer And Track (14.119mm,11.273mm)(15.319mm,11.273mm) on Top Layer Location : [X = 40.583mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-23(15.319mm,11.273mm) on Top Layer And Track (15.319mm,10.573mm)(15.319mm,11.273mm) on Top Layer Location : [X = 40.719mm][Y = 36.664mm]
+   Violation between Short-Circuit Constraint: Between Pad U-23(15.319mm,11.273mm) on Top Layer And Track (15.319mm,11.273mm)(16.519mm,11.273mm) on Top Layer Location : [X = 40.855mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-24(16.519mm,11.273mm) on Top Layer And Track (15.319mm,11.273mm)(16.519mm,11.273mm) on Top Layer Location : [X = 41.783mm][Y = 36.8mm]
+   Violation between Short-Circuit Constraint: Between Pad U-3(18.019mm,29.723mm) on Top Layer And Track (18.019mm,28.523mm)(18.019mm,29.723mm) on Top Layer Location : [X = 43.419mm][Y = 55.114mm]
+   Violation between Short-Circuit Constraint: Between Pad U-3(18.019mm,29.723mm) on Top Layer And Track (18.019mm,29.723mm)(18.019mm,30.923mm) on Top Layer Location : [X = 43.419mm][Y = 55.386mm]
+   Violation between Short-Circuit Constraint: Between Pad U-4(18.019mm,30.923mm) on Top Layer And Track (18.019mm,29.723mm)(18.019mm,30.923mm) on Top Layer Location : [X = 43.419mm][Y = 56.314mm]
+   Violation between Short-Circuit Constraint: Between Pad U-5(16.519mm,30.173mm) on Top Layer And Track (16.519mm,29.508mm)(16.519mm,30.173mm) on Top Layer Location : [X = 41.919mm][Y = 55.564mm]
+   Violation between Short-Circuit Constraint: Between Pad U-6(15.319mm,30.173mm) on Top Layer And Track (15.319mm,29.19mm)(15.319mm,30.173mm) on Top Layer Location : [X = 40.719mm][Y = 55.564mm]
+   Violation between Short-Circuit Constraint: Between Pad U-7(14.119mm,30.173mm) on Top Layer And Track (14.119mm,29.508mm)(14.119mm,30.173mm) on Top Layer Location : [X = 39.519mm][Y = 55.564mm]
+   Violation between Short-Circuit Constraint: Between Pad U-8(12.919mm,30.173mm) on Top Layer And Track (12.919mm,29.178mm)(12.919mm,30.173mm) on Top Layer Location : [X = 38.319mm][Y = 55.564mm]
+   Violation between Short-Circuit Constraint: Between Pad U-9(11.719mm,30.173mm) on Top Layer And Track (11.719mm,29.508mm)(11.719mm,30.173mm) on Top Layer Location : [X = 37.119mm][Y = 55.564mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A1(19.544mm,10.523mm) on Top Layer And Track (19.544mm,10.274mm)(19.544mm,10.523mm) on Top Layer Location : [X = 44.944mm][Y = 35.926mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A1(19.544mm,10.523mm) on Top Layer And Track (19.544mm,7.62mm)(19.544mm,10.274mm) on Top Layer Location : [X = 44.944mm][Y = 35.765mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A11(19.544mm,22.523mm) on Top Layer And Track (19.544mm,22.523mm)(19.619mm,22.523mm) on Top Layer Location : [X = 44.981mm][Y = 48.05mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A11(19.544mm,22.523mm) on Top Layer And Track (19.619mm,22.523mm)(23.793mm,22.523mm) on Top Layer Location : [X = 45.105mm][Y = 48.05mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A13(19.544mm,24.923mm) on Top Layer And Track (19.544mm,24.923mm)(19.619mm,24.923mm) on Top Layer Location : [X = 44.981mm][Y = 50.45mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A13(19.544mm,24.923mm) on Top Layer And Track (19.619mm,24.923mm)(26.883mm,24.923mm) on Top Layer Location : [X = 45.105mm][Y = 50.45mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A3(19.544mm,12.923mm) on Top Layer And Track (18.807mm,12.656mm)(19.296mm,12.656mm) on Top Layer Location : [X = 44.697mm][Y = 38.183mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A3(19.544mm,12.923mm) on Top Layer And Track (19.296mm,12.656mm)(19.544mm,12.904mm) on Top Layer Location : [X = 44.821mm][Y = 38.307mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A3(19.544mm,12.923mm) on Top Layer And Track (19.544mm,12.848mm)(19.544mm,12.904mm) on Top Layer Location : [X = 44.944mm][Y = 38.403mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A3(19.544mm,12.923mm) on Top Layer And Track (19.544mm,12.848mm)(19.6mm,12.792mm) on Top Layer Location : [X = 44.972mm][Y = 38.347mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A3(19.544mm,12.923mm) on Top Layer And Track (19.544mm,12.904mm)(19.544mm,12.923mm) on Top Layer Location : [X = 44.944mm][Y = 38.441mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A3(19.544mm,12.923mm) on Top Layer And Track (19.6mm,12.792mm)(19.792mm,12.6mm) on Top Layer Location : [X = 45.095mm][Y = 38.224mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A3(19.544mm,12.923mm) on Top Layer And Track (19.792mm,12.6mm)(19.998mm,12.6mm) on Top Layer Location : [X = 45.191mm][Y = 38.128mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A3(19.544mm,12.923mm) on Top Layer And Track (19.998mm,12.6mm)(24.146mm,8.452mm) on Top Layer Location : [X = 45.294mm][Y = 38.129mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A4(19.544mm,14.123mm) on Top Layer And Track (19.544mm,14.123mm)(19.619mm,14.123mm) on Top Layer Location : [X = 44.981mm][Y = 39.65mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A4(19.544mm,14.123mm) on Top Layer And Track (19.619mm,14.123mm)(20.354mm,14.123mm) on Top Layer Location : [X = 45.105mm][Y = 39.65mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A6(19.544mm,16.523mm) on Top Layer And Track (19.544mm,16.523mm)(19.556mm,16.535mm) on Top Layer Location : [X = 44.95mm][Y = 42.056mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A6(19.544mm,16.523mm) on Top Layer And Track (19.556mm,16.535mm)(19.619mm,16.535mm) on Top Layer Location : [X = 44.988mm][Y = 42.062mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A6(19.544mm,16.523mm) on Top Layer And Track (19.619mm,16.535mm)(20.516mm,16.535mm) on Top Layer Location : [X = 45.105mm][Y = 42.062mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A7(19.544mm,17.723mm) on Top Layer And Track (19.544mm,17.723mm)(19.619mm,17.723mm) on Top Layer Location : [X = 44.981mm][Y = 43.25mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A7(19.544mm,17.723mm) on Top Layer And Track (19.619mm,17.723mm)(28.184mm,17.723mm) on Top Layer Location : [X = 45.105mm][Y = 43.25mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A8(19.544mm,18.923mm) on Top Layer And Track (19.544mm,18.923mm)(19.619mm,18.923mm) on Top Layer Location : [X = 44.981mm][Y = 44.45mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A8(19.544mm,18.923mm) on Top Layer And Track (19.619mm,18.923mm)(22.873mm,18.923mm) on Top Layer Location : [X = 45.105mm][Y = 44.45mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A9(19.544mm,20.123mm) on Top Layer And Track (19.544mm,20.123mm)(19.619mm,20.123mm) on Top Layer Location : [X = 44.981mm][Y = 45.65mm]
+   Violation between Short-Circuit Constraint: Between Pad U-A9(19.544mm,20.123mm) on Top Layer And Track (19.619mm,20.123mm)(22.518mm,20.123mm) on Top Layer Location : [X = 45.105mm][Y = 45.65mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C1(5.094mm,30.923mm) on Top Layer And Track (5.038mm,31.054mm)(5.169mm,30.923mm) on Top Layer Location : [X = 30.504mm][Y = 56.515mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C1(5.094mm,30.923mm) on Top Layer And Track (5.169mm,30.923mm)(5.919mm,30.923mm) on Top Layer Location : [X = 30.655mm][Y = 56.45mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C14(5.094mm,15.323mm) on Top Layer And Track (4.147mm,15.323mm)(5.019mm,15.323mm) on Top Layer Location : [X = 30.333mm][Y = 40.85mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C14(5.094mm,15.323mm) on Top Layer And Track (5.019mm,15.323mm)(5.094mm,15.323mm) on Top Layer Location : [X = 30.456mm][Y = 40.85mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C15(5.094mm,14.123mm) on Top Layer And Track (5.094mm,14.123mm)(5.919mm,14.123mm) on Top Layer Location : [X = 30.617mm][Y = 39.65mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C3(5.094mm,28.523mm) on Top Layer And Track (5.094mm,28.523mm)(5.919mm,28.523mm) on Top Layer Location : [X = 30.617mm][Y = 54.05mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C4(5.094mm,27.323mm) on Top Layer And Track (5.019mm,27.323mm)(5.094mm,27.323mm) on Top Layer Location : [X = 30.456mm][Y = 52.85mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C4(5.094mm,27.323mm) on Top Layer And Track (5.094mm,27.323mm)(5.919mm,27.323mm) on Top Layer Location : [X = 30.617mm][Y = 52.85mm]
+   Violation between Short-Circuit Constraint: Between Pad U-C7(5.094mm,23.723mm) on Top Layer And Track (5.094mm,23.723mm)(5.702mm,23.723mm) on Top Layer Location : [X = 30.617mm][Y = 49.25mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D1(8.119mm,9.748mm) on Top Layer And Track (8.119mm,9.02mm)(8.119mm,9.673mm) on Top Layer Location : [X = 33.519mm][Y = 35.114mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D1(8.119mm,9.748mm) on Top Layer And Track (8.119mm,9.673mm)(8.119mm,9.748mm) on Top Layer Location : [X = 33.519mm][Y = 35.237mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D2(9.319mm,9.748mm) on Top Layer And Track (9.319mm,8.664mm)(9.319mm,9.673mm) on Top Layer Location : [X = 34.719mm][Y = 35.114mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D2(9.319mm,9.748mm) on Top Layer And Track (9.319mm,9.673mm)(9.319mm,9.748mm) on Top Layer Location : [X = 34.719mm][Y = 35.237mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D3(10.519mm,9.748mm) on Top Layer And Track (10.519mm,8.813mm)(10.519mm,9.673mm) on Top Layer Location : [X = 35.919mm][Y = 35.114mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D3(10.519mm,9.748mm) on Top Layer And Track (10.519mm,9.673mm)(10.519mm,9.748mm) on Top Layer Location : [X = 35.919mm][Y = 35.237mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D4(11.719mm,9.748mm) on Top Layer And Track (11.719mm,9.005mm)(11.719mm,9.673mm) on Top Layer Location : [X = 37.119mm][Y = 35.114mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D4(11.719mm,9.748mm) on Top Layer And Track (11.719mm,9.673mm)(11.719mm,9.748mm) on Top Layer Location : [X = 37.119mm][Y = 35.237mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D5(12.919mm,9.748mm) on Top Layer And Track (12.919mm,9.748mm)(12.966mm,9.748mm) on Top Layer Location : [X = 38.342mm][Y = 35.275mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D5(12.919mm,9.748mm) on Top Layer And Track (12.966mm,9.748mm)(13.027mm,9.686mm) on Top Layer Location : [X = 38.397mm][Y = 35.244mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D5(12.919mm,9.748mm) on Top Layer And Track (13.027mm,9.686mm)(13.214mm,9.5mm) on Top Layer Location : [X = 38.521mm][Y = 35.121mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D5(12.919mm,9.748mm) on Top Layer And Track (13.214mm,8.992mm)(13.214mm,9.5mm) on Top Layer Location : [X = 38.614mm][Y = 35.028mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D6(14.119mm,9.748mm) on Top Layer And Track (14.119mm,8.992mm)(14.119mm,9.673mm) on Top Layer Location : [X = 39.519mm][Y = 35.114mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D6(14.119mm,9.748mm) on Top Layer And Track (14.119mm,9.673mm)(14.119mm,9.748mm) on Top Layer Location : [X = 39.519mm][Y = 35.237mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D7(15.319mm,9.748mm) on Top Layer And Track (15.319mm,9.748mm)(15.319mm,10.573mm) on Top Layer Location : [X = 40.719mm][Y = 35.398mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D8(16.519mm,9.748mm) on Top Layer And Track (16.519mm,8.255mm)(16.519mm,9.673mm) on Top Layer Location : [X = 41.919mm][Y = 35.114mm]
+   Violation between Short-Circuit Constraint: Between Pad U-D8(16.519mm,9.748mm) on Top Layer And Track (16.519mm,9.673mm)(16.519mm,9.748mm) on Top Layer Location : [X = 41.919mm][Y = 35.237mm]
+Rule Violations :278
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+   Violation between Width Constraint: Arc (10.519mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (10.519mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (10.519mm,31.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (11.719mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (11.719mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (11.719mm,31.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (12.919mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (12.919mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (12.919mm,31.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (14.119mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (14.119mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (14.119mm,31.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (15.319mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (15.319mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (15.319mm,31.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (16.519mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (16.519mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (16.519mm,31.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,10.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,10.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,11.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,12.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,12.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,12.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,14.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,15.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,16.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,16.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,17.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,18.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,20.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,21.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,22.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,22.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,22.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,23.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,24.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,26.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,27.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,28.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,29.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (19.169mm,30.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,10.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,11.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,12.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,14.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,14.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,15.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,15.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,16.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,17.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,18.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,20.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,21.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,22.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,23.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,23.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,23.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,24.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,26.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,27.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,27.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,28.523mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,29.723mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,30.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (5.469mm,30.923mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (8.119mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (8.119mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (8.119mm,31.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (9.319mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (9.319mm,10.123mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+   Violation between Width Constraint: Arc (9.319mm,31.323mm) on Top Layer Actual Width = 0mm, Target Width = 0.254mm
+Rule Violations :72
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-1(18.019mm,27.323mm) on Top Layer And Pad U-2(18.019mm,28.523mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-1(18.019mm,27.323mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-10(10.519mm,30.173mm) on Top Layer And Pad U-11(9.319mm,30.173mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-10(10.519mm,30.173mm) on Top Layer And Pad U-9(11.719mm,30.173mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-10(10.519mm,30.173mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-11(9.319mm,30.173mm) on Top Layer And Pad U-12(8.119mm,30.173mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-11(9.319mm,30.173mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-12(8.119mm,30.173mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-13(6.619mm,30.923mm) on Top Layer And Pad U-14(6.619mm,29.723mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-13(6.619mm,30.923mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-14(6.619mm,29.723mm) on Top Layer And Pad U-15(6.619mm,28.523mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-14(6.619mm,29.723mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-15(6.619mm,28.523mm) on Top Layer And Pad U-16(6.619mm,27.323mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-15(6.619mm,28.523mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-16(6.619mm,27.323mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-17(8.119mm,11.273mm) on Top Layer And Pad U-18(9.319mm,11.273mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-17(8.119mm,11.273mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-18(9.319mm,11.273mm) on Top Layer And Pad U-19(10.519mm,11.273mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-18(9.319mm,11.273mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-19(10.519mm,11.273mm) on Top Layer And Pad U-20(11.719mm,11.273mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-19(10.519mm,11.273mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-2(18.019mm,28.523mm) on Top Layer And Pad U-3(18.019mm,29.723mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-2(18.019mm,28.523mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-20(11.719mm,11.273mm) on Top Layer And Pad U-21(12.919mm,11.273mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-20(11.719mm,11.273mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-21(12.919mm,11.273mm) on Top Layer And Pad U-22(14.119mm,11.273mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-21(12.919mm,11.273mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-22(14.119mm,11.273mm) on Top Layer And Pad U-23(15.319mm,11.273mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-22(14.119mm,11.273mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-23(15.319mm,11.273mm) on Top Layer And Pad U-24(16.519mm,11.273mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-23(15.319mm,11.273mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-24(16.519mm,11.273mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-3(18.019mm,29.723mm) on Top Layer And Pad U-4(18.019mm,30.923mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-3(18.019mm,29.723mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-4(18.019mm,30.923mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-5(16.519mm,30.173mm) on Top Layer And Pad U-6(15.319mm,30.173mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-5(16.519mm,30.173mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-6(15.319mm,30.173mm) on Top Layer And Pad U-7(14.119mm,30.173mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-6(15.319mm,30.173mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-7(14.119mm,30.173mm) on Top Layer And Pad U-8(12.919mm,30.173mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-7(14.119mm,30.173mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U-8(12.919mm,30.173mm) on Top Layer And Pad U-9(11.719mm,30.173mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-8(12.919mm,30.173mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-9(11.719mm,30.173mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.206mm < 0.254mm) Between Pad U-TP10(6.619mm,13.053mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.206mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.167mm < 0.254mm) Between Pad U-TP10(6.619mm,13.053mm) on Top Layer And Via (6.619mm,14.123mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.167mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-TP11(18.019mm,10.513mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.198mm < 0.254mm) Between Pad U-TP12(6.619mm,10.513mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.198mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.23mm < 0.254mm) Between Pad U-TP7(18.019mm,15.593mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.23mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.23mm < 0.254mm) Between Pad U-TP8(6.619mm,15.593mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.23mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.206mm < 0.254mm) Between Pad U-TP9(18.019mm,13.053mm) on Top Layer And Region (0 hole(s)) Top Solder [Top Solder] Mask Sliver [0.206mm]
+Rule Violations :51
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.211mm < 0.254mm) Between Arc (26.686mm,13.125mm) on Top Overlay And Pad B2-1(28.192mm,13.125mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.211mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.211mm < 0.254mm) Between Arc (27.305mm,22.225mm) on Top Overlay And Pad B1-1(28.811mm,22.225mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.211mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.115mm < 0.254mm) Between Pad B1-1(28.811mm,22.225mm) on Top Layer And Text "R3" (26.87mm,20.168mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.115mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.238mm < 0.254mm) Between Pad D2-1(28.784mm,17.697mm) on Top Layer And Text "D2" (29.899mm,17.316mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.238mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.238mm < 0.254mm) Between Pad D2-2(32.284mm,17.697mm) on Top Layer And Text "D2" (29.899mm,17.316mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.238mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.061mm < 0.254mm) Between Pad D3-1(31.248mm,27.051mm) on Top Layer And Text "D3" (33.71mm,25.781mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.061mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.254mm) Between Pad D3-2(34.248mm,27.051mm) on Top Layer And Text "D3" (33.71mm,25.781mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.184mm < 0.254mm) Between Pad R2-1(37.405mm,17.697mm) on Top Layer And Text "R2" (35.642mm,15.946mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.184mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.164mm < 0.254mm) Between Pad R2-2(35.525mm,17.697mm) on Top Layer And Text "R2" (35.642mm,15.946mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.164mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.254mm) Between Pad U-A1(19.544mm,10.523mm) on Top Layer And Track (19.719mm,9.573mm)(19.719mm,9.873mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.254mm) Between Pad U-A18(19.544mm,30.923mm) on Top Layer And Track (19.719mm,31.573mm)(19.719mm,31.873mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.254mm) Between Pad U-B1(16.519mm,31.698mm) on Top Layer And Track (17.169mm,31.873mm)(19.719mm,31.873mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.254mm) Between Pad U-B8(8.119mm,31.698mm) on Top Layer And Track (4.919mm,31.873mm)(7.469mm,31.873mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.254mm) Between Pad U-C1(5.094mm,30.923mm) on Top Layer And Track (4.919mm,31.573mm)(4.919mm,31.873mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.254mm) Between Pad U-C18(5.094mm,10.523mm) on Top Layer And Track (4.919mm,9.573mm)(4.919mm,9.873mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.254mm) Between Pad U-D1(8.119mm,9.748mm) on Top Layer And Track (4.919mm,9.573mm)(7.469mm,9.573mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.125mm < 0.254mm) Between Pad U-D8(16.519mm,9.748mm) on Top Layer And Track (17.169mm,9.573mm)(19.719mm,9.573mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.125mm]
+Rule Violations :17
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.243mm < 0.254mm) Between Text "D3" (33.71mm,25.781mm) on Top Overlay And Track (30.098mm,25.351mm)(31.998mm,25.351mm) on Top Overlay Silk Text to Silk Clearance [0.243mm]
+   Violation between Silk To Silk Clearance Constraint: (0.203mm < 0.254mm) Between Text "D3" (33.71mm,25.781mm) on Top Overlay And Track (33.498mm,25.351mm)(35.198mm,25.351mm) on Top Overlay Silk Text to Silk Clearance [0.203mm]
+   Violation between Silk To Silk Clearance Constraint: (0.205mm < 0.254mm) Between Text "D3" (33.71mm,25.781mm) on Top Overlay And Track (33.498mm,28.751mm)(35.198mm,28.751mm) on Top Overlay Silk Text to Silk Clearance [0.205mm]
+   Violation between Silk To Silk Clearance Constraint: (0.075mm < 0.254mm) Between Text "R2" (35.642mm,15.946mm) on Top Overlay And Track (36.363mm,16.986mm)(36.567mm,16.986mm) on Top Overlay Silk Text to Silk Clearance [0.075mm]
+Rule Violations :4
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 422
+Waived Violations : 0
+Time Elapsed        : 00:00:02

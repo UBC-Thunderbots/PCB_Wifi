@@ -1,0 +1,11 @@
+Change Component Designator: OldDesignator=CN? NewDesignator=CN
+Change Component Description : Designator=CN Old Description=Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded New Description=
+Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded
+
+Change Net Name : Old Net Name=NetC1_1 New Net Name=X0
+Change Net Name : Old Net Name=NetC2_1 New Net Name=X1
+Change Net Name : Old Net Name=NetC43_2 New Net Name=VDDA_3.3
+Change Net Name : Old Net Name=NetC45_2 New Net Name=VDD_1v2
+Change Net Name : Old Net Name=NetC57_1 New Net Name=RJ_45_GND
+Change Net Name : Old Net Name=NetCN?_10 New Net Name=INV_TO_RJ45
+Change Net Name : Old Net Name=NetD8_1 New Net Name=KSZ_RST_OUT

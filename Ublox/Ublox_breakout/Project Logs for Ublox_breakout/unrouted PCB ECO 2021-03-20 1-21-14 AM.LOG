@@ -1,0 +1,28 @@
+Added Component: Designator=H(S6B-ZR_JST)
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_UL_Team"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "S6B-ZR(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SourceLibrary"; Value = "JST_2017-04-18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "JST"; VariantName = "[No Variations]"
+Added Component: Designator=P(HDR1X9)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MAIN_RESET Pin=H-2
+Added Pin To Net: NetName=UART_TXD Pin=H-3
+Added Pin To Net: NetName=UART_RXD Pin=H-4
+Added Pin To Net: NetName=GND Pin=H-5
+Added Pin To Net: NetName=3v3 Pin=H-6
+Added Pin To Net: NetName=ETH_TXD0 Pin=P-1
+Added Pin To Net: NetName=ETH_TXD1 Pin=P-2
+Added Pin To Net: NetName=ETH_TXEN Pin=P-3
+Added Pin To Net: NetName=ETH_CRSDV Pin=P-4
+Added Pin To Net: NetName=ETH_RXD0 Pin=P-5
+Added Pin To Net: NetName=ETH_RXD1 Pin=P-6
+Added Pin To Net: NetName=ETH_REFCLK Pin=P-7
+Added Pin To Net: NetName=ETH_MDIO Pin=P-8
+Added Pin To Net: NetName=ETH_MC Pin=P-9
+Added Member To Class: ClassName=Ublox_breakout Member=Component H S6B-ZR(LF)(SN)
+Added Member To Class: ClassName=Ublox_breakout Member=Component P Header 9
